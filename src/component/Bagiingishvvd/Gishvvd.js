@@ -5,7 +5,8 @@ const Gishvvd = () => {
     const [gishvvd_description,setGishvvd_description] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/teams_gishvvd_garchig")
+        // .get("http://localhost/ail-admin/api/v1/teams_gishvvd_garchig")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/teams_gishvvd_garchig`)
         .then((res) => {
             setGishvvd_title(res.data.data);
             console.log(res.data.data);
@@ -16,7 +17,7 @@ const Gishvvd = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/teams_gishvvd_garchig")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/teams_gishvvd_garchig`)
         .then((res) => {
             setGishvvd_description(res.data.data);
             console.log(res.data.data);

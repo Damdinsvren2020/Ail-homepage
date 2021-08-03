@@ -14,7 +14,7 @@ const Section = () => {
     const [shaltgaan_duruw_tailbar,setShaltgaan_duruw_tailbar] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Bidniig_songoh_shaltaan")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Bidniig_songoh_shaltaan`)
         .then((res) => {
             setDescriptions(res.data.data);
             console.log(res.data.data);
@@ -25,7 +25,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Bidniig_songoh_shaltaan")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Bidniig_songoh_shaltaan`)
         .then((res) => {
             setTitle(res.data.data);
             console.log(res.data.data);
@@ -36,7 +36,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/shaltgaan_aguulga_neg")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/shaltgaan_aguulga_neg`)
         .then((res) => {
             setShaltgaan_neg_garchig(res.data.data);
             console.log(res.data.data);
@@ -47,7 +47,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/shaltgaan_aguulga_neg")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/shaltgaan_aguulga_neg`)
         .then((res) => {
             setShaltgaan_neg_tailbar(res.data.data);
             console.log(res.data.data);
@@ -58,7 +58,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/aguulga_hoyr")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/aguulga_hoyr`)
         .then((res) => {
             setShaltgaan_hoyr_garchig(res.data.data);
             console.log(res.data.data);
@@ -69,7 +69,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/aguulga_hoyr")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/aguulga_hoyr`)
         .then((res) => {
             setShaltgaan_hoyr_tailbar(res.data.data);
             console.log(res.data.data);
@@ -80,7 +80,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/aguulga_guraw")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/aguulga_guraw`)
         .then((res) => {
             setShaltgaan_guraw_garchig(res.data.data);
             console.log(res.data.data);
@@ -91,7 +91,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/aguulga_guraw")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/aguulga_guraw`)
         .then((res) => {
             setShaltgaan_guraw_tailbar(res.data.data);
             console.log(res.data.data);
@@ -102,7 +102,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/aguulga_duruw")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/aguulga_duruw`)
         .then((res) => {
             setShaltgaan_duruw_garchig(res.data.data);
             console.log(res.data.data);
@@ -113,7 +113,7 @@ const Section = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/aguulga_duruw")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/aguulga_duruw`)
         .then((res) => {
             setShaltgaan_duruw_tailbar(res.data.data);
             console.log(res.data.data);

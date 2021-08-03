@@ -11,7 +11,8 @@ const Showcase = () => {
     // const [image,setImage] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Show_case_neg")
+        // .get("http://localhost//api/v1/Show_case_neg")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Show_case_neg`)
         .then((res) => {
             setShowcase_neg_garchig(res.data.data);
             console.log(res.data.data);
@@ -22,7 +23,7 @@ const Showcase = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Show_case_neg")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Show_case_neg`)
         .then((res) => {
             setShowcase_neg_tailbar(res.data.data);
             console.log(res.data.data);
@@ -33,7 +34,7 @@ const Showcase = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Show_case_hoyor")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Show_case_hoyor`)
         .then((res) => {
             setShowcase_hoyor_garchig(res.data.data);
             console.log(res.data.data);
@@ -44,7 +45,8 @@ const Showcase = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Show_case_hoyor")
+        // .get("http://localhost//api/v1/Show_case_hoyor")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Show_case_hoyor`)
         .then((res) => {
             setShowcase_hoyor_tailbar(res.data.data);
             console.log(res.data.data);
@@ -55,7 +57,8 @@ const Showcase = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Case_guraw")
+        // .get("http://localhost//api/v1/Case_guraw")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Case_guraw`)
         .then((res) => {
             setCase_garchig_guraw(res.data.data);
             console.log(res.data.data);
@@ -66,7 +69,7 @@ const Showcase = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Case_guraw")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Case_guraw`)
         .then((res) => {
             setCase_tailbar_guraw(res.data.data);
             console.log(res.data.data);
@@ -77,7 +80,7 @@ const Showcase = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/show_case_banner")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/show_case_banner`)
         .then((res) => {
             setShow_case_banner_text(res.data.data);
             console.log(res.data.data);
@@ -88,7 +91,7 @@ const Showcase = () => {
     });
     // useEffect(() => {
     //     axios
-    //     .get("http://localhost/ail-admin/api/v1/show_case_banner")
+    //     .get("http://localhost//api/v1/show_case_banner")
     //     .then((res) => {
     //         setImage(res.data.data);
     //         console.log(res.data.data);

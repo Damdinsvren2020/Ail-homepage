@@ -6,7 +6,8 @@ const Appdownload = () => {
     const [appdownload_image,setAppdownload_image] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/App_download")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/App_download`)
+        // .get("http://localhost/ail-admin/api/v1/App_download")
         .then((res) => {
             setAppdownload_title(res.data.data);
             console.log(res.data.data);
@@ -17,7 +18,7 @@ const Appdownload = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/App_download")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/App_download`)
         .then((res) => {
             setAppdownload_description(res.data.data);
             console.log(res.data.data);
@@ -28,7 +29,7 @@ const Appdownload = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/App_download")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/App_download`)
         .then((res) => {
             setAppdownload_image(res.data.data);
             console.log(res.data.data);
@@ -46,7 +47,7 @@ const Appdownload = () => {
                         <div className="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                             {/* <img src="assets/img/app-landing/mockup/amu1.png" alt=""/> */}
                             {appdownload_image.map((appdownload_image) => (
-                                <img src={`http://localhost/ail-admin/storage/app/media${appdownload_image.appdownload_image}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${appdownload_image.appdownload_image}`} alt=""/>
                             ))}
                         </div>
                     </div>

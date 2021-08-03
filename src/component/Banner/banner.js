@@ -7,7 +7,8 @@ const Banner = () => {
     const [image,setImage] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Home_banner")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Home_banner`)
+        // console.log('pisda',process.env)
         .then((res) => {
             setDescriptions(res.data.data);
             console.log(res.data.data);
@@ -15,27 +16,37 @@ const Banner = () => {
         .catch((err) => {
             console.log(err);
         })
-    });
+    }, []);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Home_banner")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Home_banner`)
         .then((res) => {
             setTitle(res.data.data);
         })
         .catch((err) => {
             console.log(err);
         })
-    });
-    useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Home_banner")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Home_banner`)
         .then((res) => {
             setImage(res.data.data);
+            console.log('pisda',res.data.data);
         })
         .catch((err) => {
             console.log(err);
         })
-    });
+    }, []);
+    useEffect(() => {
+        axios
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Home_banner`)
+        .then((res) => {
+            setImage(res.data.data);
+            console.log('xaxa',res.data.data);
+        })
+        .catch((err) => {
+            console.log(err);
+        })
+    }, []);
     return (
         <section id="eight-banner" className="eight-banner-section position-relative">
         <div className="container">
@@ -73,7 +84,7 @@ const Banner = () => {
                         </div>
                         <div className="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
                             {descriptions.map((description) => (
-                                <img src={`http://localhost/ail-admin/storage/app/media${description.image}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${description.image}`} alt=""/>
                             ))}
                         </div>
                     </div>

@@ -9,7 +9,8 @@ const Team = () => {
     const [teams_tailbar,setTeams_tailbar] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Toon_vzvvlelt_zurag")
+        // .get("http://localhost/ail-admin/api/v1/Toon_vzvvlelt_zurag")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Toon_vzvvlelt_zurag`)
         .then((res) => {
             setImage_neg(res.data.data);
         })
@@ -19,7 +20,7 @@ const Team = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Toon_vzvvlelt_zurag")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Toon_vzvvlelt_zurag`)
         .then((res) => {
             setImage_hoyor(res.data.data);
         })
@@ -29,7 +30,7 @@ const Team = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Toon_vzvvlelt_zurag")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Toon_vzvvlelt_zurag`)
         .then((res) => {
             setImage_guraw(res.data.data);
         })
@@ -39,7 +40,7 @@ const Team = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Toon_vzvvlelt_zurag")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Toon_vzvvlelt_zurag`)
         .then((res) => {
             setTeams_garchig(res.data.data);
         })
@@ -49,7 +50,7 @@ const Team = () => {
     });
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/Toon_vzvvlelt_zurag")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/Toon_vzvvlelt_zurag`)
         .then((res) => {
             setTeams_tailbar(res.data.data);
         })
@@ -66,18 +67,18 @@ const Team = () => {
                         <div className="eg-fun-fact-mockup wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div className="main-mockup">
                             {image_neg.map((image_neg) => (
-                                <img src={`http://localhost/ail-admin/storage/app/media${image_neg.image_neg}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_neg.image_neg}`} alt=""/>
                             ))}
                             {image_hoyor.map((image_hoyor) => (
-                                <img src={`http://localhost/ail-admin/storage/app/media${image_hoyor.image_hoyor}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_hoyor.image_hoyor}`} alt=""/>
                             ))}                            </div>
                             <div className="fn-shape fn-shape-item1" data-parallax='{"y" : 50}'>
                             {image_guraw.map((image_guraw) => (
-                                <img src={`http://localhost/ail-admin/storage/app/media${image_guraw.image_guraw}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_guraw.image_guraw}`} alt=""/>
                             ))}                              </div>
                             <div className="fn-shape fn-shape-item2" data-parallax='{"y" : 60}'>
                             {image_guraw.map((image_guraw) => (
-                                <img src={`http://localhost/ail-admin/storage/app/media${image_guraw.image_guraw}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_guraw.image_guraw}`} alt=""/>
                             ))}                             </div>
                             <div className="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'>
                                 <img src="assets/img/app-landing/shape/fc1.png" alt=""/>

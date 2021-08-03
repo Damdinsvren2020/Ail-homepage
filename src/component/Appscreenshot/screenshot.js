@@ -5,7 +5,7 @@ const Screenshot = () => {
     const [image_neg,setImage_neg] = useState([]);
     useEffect(() => {
         axios
-        .get("http://localhost/ail-admin/api/v1/App_screenshot")
+        .get(`${process.env.REACT_APP_API_URL}api/v1/App_screenshot`)
         .then((res) => {
             setImage_neg(res.data.data);
             console.log(res.data.data);
