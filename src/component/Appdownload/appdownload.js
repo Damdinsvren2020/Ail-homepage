@@ -47,7 +47,7 @@ const Appdownload = () => {
                         <div className="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                             {/* <img src="assets/img/app-landing/mockup/amu1.png" alt=""/> */}
                             {appdownload_image.map((appdownload_image) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${appdownload_image.appdownload_image}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${appdownload_image.appdownload_image}`} alt=""/>
                             ))}
                         </div>
                     </div>

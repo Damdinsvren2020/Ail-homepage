@@ -8,7 +8,6 @@ const Banner = () => {
     useEffect(() => {
         axios
         .get(`${process.env.REACT_APP_API_URL}api/v1/Home_banner`)
-        // console.log('pisda',process.env)
         .then((res) => {
             setDescriptions(res.data.data);
             console.log(res.data.data);
@@ -84,7 +83,7 @@ const Banner = () => {
                         </div>
                         <div className="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
                             {descriptions.map((description) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${description.image}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${description.image}`} alt=""/>
                             ))}
                         </div>
                     </div>

@@ -67,18 +67,18 @@ const Team = () => {
                         <div className="eg-fun-fact-mockup wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div className="main-mockup">
                             {image_neg.map((image_neg) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_neg.image_neg}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${image_neg.image_neg}`} alt=""/>
                             ))}
                             {image_hoyor.map((image_hoyor) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_hoyor.image_hoyor}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${image_hoyor.image_hoyor}`} alt=""/>
                             ))}                            </div>
                             <div className="fn-shape fn-shape-item1" data-parallax='{"y" : 50}'>
                             {image_guraw.map((image_guraw) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_guraw.image_guraw}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${image_guraw.image_guraw}`} alt=""/>
                             ))}                              </div>
                             <div className="fn-shape fn-shape-item2" data-parallax='{"y" : 60}'>
                             {image_guraw.map((image_guraw) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/ail-admin/storage/app/media${image_guraw.image_guraw}`} alt=""/>
+                                <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${image_guraw.image_guraw}`} alt=""/>
                             ))}                             </div>
                             <div className="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'>
                                 <img src="assets/img/app-landing/shape/fc1.png" alt=""/>
