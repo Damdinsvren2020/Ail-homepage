@@ -154,18 +154,6 @@ class Showcase extends Component {
                                     </div>
                                 </div>
                                 <div className="slide-item">
-                                {/* <div className="image">
-                                {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }
-                                    </div> */}
-                                </div>
-                                {/* <div className="slide-item">
                                 <div className="image">
                                 {
                             this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
@@ -176,7 +164,19 @@ class Showcase extends Component {
                                null
                                 }
                                     </div>
-                                </div> */}
+                                </div>
+                                <div className="slide-item">
+                                <div className="image">
+                                {
+                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
+                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
+                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
+                                    )
+                                :
+                               null
+                                }
+                                    </div>
+                                </div>
                                 {/* <div className="slide-item">
                                     <div className="image">
                                     {

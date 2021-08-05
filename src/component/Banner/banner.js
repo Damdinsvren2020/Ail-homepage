@@ -1,4 +1,5 @@
 import React ,{Component} from 'react';
+import  './banner.css';
 import axios from 'axios';
 
 class Banner extends Component {
@@ -12,7 +13,6 @@ class Banner extends Component {
         axios.get('http://103.29.144.253:8092/api/v1/Home_banner')
           .then(response => {
             const banners = response.data.data;
-            console.log('banner oruulah data',response.data.data)
             this.setState({ banners: banners });
           })
           .catch(error => {
@@ -30,7 +30,7 @@ class Banner extends Component {
                             {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <h1 key={banner.id}>{banner.title}
+                                            <h1 style={{fontFamily:"inherit"}} key={banner.id}>{banner.title}
                                                 <span className="cd-words-wrapper">
                                                     <b className="is-visible"></b>
                                                     <b>showcase</b>
@@ -44,14 +44,14 @@ class Banner extends Component {
                              {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <p key={banner.id}>{banner.description}
+                                            <p style={{fontFamily:"inherit"}} key={banner.id}>{banner.description}
                                             </p>
                                     )
                             :
                             null
                             }
                                  <div className="ei-banner-btn">
-                                        <a href="https://www.google.mn/"><i className="fas fa-power-off"></i>Эхлэх</a>
+                                        <a href="http://ail.mn/login?redirect=%2F"><i className="fas fa-power-off"></i>Эхлэх</a>
                                 </div>
                                   
                             </div>
@@ -59,7 +59,7 @@ class Banner extends Component {
                             {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                        <img key={banner.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${banner.image}`} alt=""/>
+                                        <img key={banner.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${banner.image}`} alt="bannerzurag oruulah"/>
                                     )
                             :
                             null

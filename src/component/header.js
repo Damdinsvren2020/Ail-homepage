@@ -12,12 +12,10 @@ class Header extends React.Component {
                 </div>
                 <nav className="navigation-eight ul-li">
                     <ul>
-                        <li><a className="nav-link" href="#eight-banner">Нүүр хуудас</a></li>
-                        <li><a className="nav-link" href="#feature-eight">Үйлчилгээ</a></li>
-                        <li><a className="nav-link" href="#eight-service">Бидний тухай</a></li>
-                        {/* <li><a className="nav-link" href="#ei-team">Team</a></li> */}
-                        {/* <li><a className="nav-link" href="#ei-faq">FAQ</a></li> */}
-                        <li><a className="nav-link" href="#ei-screenshots">App мэдээлэл</a></li>
+                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}} href="#eight-banner">Нүүр хуудас</a></li>
+                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}}  href="#feature-eight">Үйлчилгээ</a></li>
+                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}}  href="#eight-service">Бидний тухай</a></li>
+                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}}  href="#ei-screenshots">Системийн мэдээлэл</a></li>
                     </ul>
                 </nav>
                 <div className="h-eight-social ul-li float-right clearfix">
@@ -45,10 +43,10 @@ class Header extends React.Component {
                         </div>
                         <nav className="appi-ei-mobile-main-navigation  clearfix ul-li">
                             <ul id="main-nav" className="navbar-nav text-capitalize clearfix">
-                                <li><a className="nav-link" href="#eight-banner">Нүүр хуудас</a></li>
-                                <li><a className="nav-link" href="#feature-eight">Үйлчилгээ</a></li>
-                                <li><a className="nav-link" href="#eight-service">Бидний тухай</a></li>
-                                <li><a className="nav-link" href="#ei-screenshots">App мэдээлэл</a></li>
+                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#eight-banner">Нүүр хуудас</a></li>
+                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#feature-eight">Үйлчилгээ</a></li>
+                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#eight-service">Бидний тухай</a></li>
+                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#ei-screenshots">App мэдээлэл</a></li>
                             </ul>
                         </nav>
                     </div>

@@ -11,6 +11,7 @@ class Team extends Component {
         axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const teams_garchig = response.data.data;
+            console.log('zurag irj bna uu ???',response);
             this.setState({ teams_garchig: teams_garchig });
           })
           .catch(error => {

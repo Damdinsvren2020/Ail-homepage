@@ -73,7 +73,7 @@ class Featured extends Component {
                         {
                             this.state.Songohshaltgaan && this.state.Songohshaltgaan.length > 0 ?
                                     this.state.Songohshaltgaan.map((Songohshaltgaan, index)=>
-                                            <h2 key={Songohshaltgaan.id}>{Songohshaltgaan.title}
+                                            <h2  style={{fontFamily:"inherit",fontSize:"25px",fontWeight:"100"}} key={Songohshaltgaan.id}>{Songohshaltgaan.title}
                                             </h2>
                                     )
                             :
@@ -82,7 +82,7 @@ class Featured extends Component {
                            {
                             this.state.Songohshaltgaan && this.state.Songohshaltgaan.length > 0 ?
                                     this.state.Songohshaltgaan.map((Songohshaltgaan, index)=>
-                                            <h2 key={Songohshaltgaan.id}>{Songohshaltgaan.description}
+                                            <h2  style={{fontFamily:"inherit",fontSize:"25px",fontWeight:"100",textAlign:"justify"}} key={Songohshaltgaan.id}>{Songohshaltgaan.description}
                                             </h2>
                                     )
                             :
@@ -101,7 +101,7 @@ class Featured extends Component {
                                 {
                             this.state.Songohshaltgaanneg && this.state.Songohshaltgaanneg.length > 0 ?
                                     this.state.Songohshaltgaanneg.map((Songohshaltgaanneg, index)=>
-                                            <h2 key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_garchig}
+                                            <h2  style={{fontFamily:"inherit"}} key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_garchig}
                                             </h2>
                                     )
                             :
@@ -110,8 +110,8 @@ class Featured extends Component {
                             {
                             this.state.Songohshaltgaanneg && this.state.Songohshaltgaanneg.length > 0 ?
                                     this.state.Songohshaltgaanneg.map((Songohshaltgaanneg, index)=>
-                                            <h3 key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_tailbar}
-                                            </h3>
+                                            <p  style={{fontFamily:"inherit",textAlign:"justify"}} key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_tailbar}
+                                            </p>
                                     )
                             :
                             null
@@ -132,7 +132,7 @@ class Featured extends Component {
                                     {
                             this.state.Songohshaltgaanhoyor && this.state.Songohshaltgaanhoyor.length > 0 ?
                                     this.state.Songohshaltgaanhoyor.map((Songohshaltgaanhoyor, index)=>
-                                            <h2 key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_garchig}
+                                            <h2 style={{fontFamily:"inherit"}} key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_garchig}
                                             </h2>
                                     )
                             :
@@ -141,7 +141,7 @@ class Featured extends Component {
                              {
                             this.state.Songohshaltgaanhoyor && this.state.Songohshaltgaanhoyor.length > 0 ?
                                     this.state.Songohshaltgaanhoyor.map((Songohshaltgaanhoyor, index)=>
-                                            <p key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_tailbar}
+                                            <p style={{fontFamily:"inherit",textAlign:"justify"}} key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_tailbar}
                                             </p>
                                     )
                             :
@@ -163,7 +163,7 @@ class Featured extends Component {
                                 {
                             this.state.Songohshaltgaanguraw && this.state.Songohshaltgaanguraw.length > 0 ?
                                     this.state.Songohshaltgaanguraw.map((Songohshaltgaanguraw, index)=>
-                                            <h2 key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_garchig}
+                                            <h2 style={{fontFamily:"inherit"}} key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_garchig}
                                             </h2>
                                     )
                             :
@@ -172,7 +172,7 @@ class Featured extends Component {
                              {
                             this.state.Songohshaltgaanguraw && this.state.Songohshaltgaanguraw.length > 0 ?
                                     this.state.Songohshaltgaanguraw.map((Songohshaltgaanguraw, index)=>
-                                            <p key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_tailbar}
+                                            <p style={{fontFamily:"inherit",textAlign:"justify"}} key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_tailbar}
                                             </p>
                                     )
                             :
@@ -194,7 +194,7 @@ class Featured extends Component {
                                 {
                             this.state.Songohshaltgaanduruw && this.state.Songohshaltgaanduruw.length > 0 ?
                                     this.state.Songohshaltgaanduruw.map((Songohshaltgaanduruw, index)=>
-                                            <h2 key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_garchig}
+                                            <h2 style={{fontFamily:"inherit"}} key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_garchig}
                                             </h2>
                                     )
                             :
@@ -203,7 +203,7 @@ class Featured extends Component {
                              {
                             this.state.Songohshaltgaanduruw && this.state.Songohshaltgaanduruw.length > 0 ?
                                     this.state.Songohshaltgaanduruw.map((Songohshaltgaanduruw, index)=>
-                                            <p key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_tailbar}
+                                            <p style={{fontFamily:"inherit",textAlign:"justify"}} key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_tailbar}
                                             </p>
                                     )
                             :
