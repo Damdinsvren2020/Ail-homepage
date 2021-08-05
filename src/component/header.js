@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 class Header extends React.Component {
     render() {
@@ -6,7 +6,7 @@ class Header extends React.Component {
             <header id="header-eight" className="main-header-eight">
             <div className="appheader-content">
                 <div className="site-logo float-left">
-                    <a href="#">
+                    <a href="https://www.google.mn/">
                         <img src="assets/img/app-landing/logo/aillogo.png" alt=""/>
                     </a>
                 </div>
@@ -59,5 +59,4 @@ class Header extends React.Component {
         )
     }
 }
-
 export default Header;

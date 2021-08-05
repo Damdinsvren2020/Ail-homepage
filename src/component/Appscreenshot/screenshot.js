@@ -1,19 +1,19 @@
-import React, {Component, useState,useEffect} from 'react';
+import React, {useState,useEffect} from 'react';
 import axios from 'axios';
 
 const Screenshot = () => {
-    const [image_neg,setImage_neg] = useState([]);
-    useEffect(() => {
-        axios
-        .get(`${process.env.REACT_APP_API_URL}api/v1/App_screenshot`)
-        .then((res) => {
-            setImage_neg(res.data.data);
-            console.log(res.data.data);
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-    });
+    // const [image_neg,setImage_neg] = useState([]);
+    // useEffect(() => {
+    //     axios
+    //     .get(`${process.env.REACT_APP_API_URL}api/v1/App_screenshot`)
+    //     .then((res) => {
+    //         setImage_neg(res.data.data);
+    //         console.log(res.data.data);
+    //     })
+    //     .catch((err) => {
+    //         console.log(err);
+    //     })
+    // });
    return (
     <section id="ei-screenshots" className="ei-screenshots-section position-relative">
     <div className="container">
