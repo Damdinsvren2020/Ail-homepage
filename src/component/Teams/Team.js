@@ -11,7 +11,6 @@ class Team extends Component {
         axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const teams_garchig = response.data.data;
-            console.log('zurag irj bna uu ???',response);
             this.setState({ teams_garchig: teams_garchig });
           })
           .catch(error => {
@@ -27,36 +26,36 @@ class Team extends Component {
                         <div className="eg-funfact-content clearfix position-relative">
                             <div className="eg-fun-fact-mockup wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="main-mockup">
-                                {
+                                    {/* {
+                                    this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
+                                        this.state.teams_garchig.map((teams_garchig, index)=>
+                                            <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_neg}`} alt="xaxa"/>
+                                        )
+                                    :
+                                    null
+                                    }         
+                                    {
+                                    this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
+                                        this.state.teams_garchig.map((teams_garchig, index)=>
+                                            <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_hoyor}`} alt="xaxa"/>
+                                        )
+                                    :
+                                    null
+                                    }          */}
+                                  {/* {
                                  this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
                                     this.state.teams_garchig.map((teams_garchig, index)=>
-                                        <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_neg}`} alt=""/>
+                                        <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_guraw}`} alt="alt"/>
                                     )
                                  :
                                  null
-                                }         
-                                  {
-                                 this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
-                                    this.state.teams_garchig.map((teams_garchig, index)=>
-                                        <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_hoyor}`} alt=""/>
-                                    )
-                                 :
-                                 null
-                                }         
-                                  {
-                                 this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
-                                    this.state.teams_garchig.map((teams_garchig, index)=>
-                                        <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_guraw}`} alt=""/>
-                                    )
-                                 :
-                                 null
-                                }         
+                                }          */}
                                 </div>
                                 <div className="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'>
-                                    <img src="assets/img/app-landing/shape/fc1.png" alt=""/>
+                                    <img src="assets/img/app-landing/shape/fc1.png" alt="xaxa"/>
                                 </div>
                                 <div className="fn-shape fn-shape-item4" data-parallax='{"x" : -40}'>
-                                    <img src="assets/img/app-landing/shape/fc2.png" alt=""/>
+                                    <img src="assets/img/app-landing/shape/fc2.png" alt="xaxa"/>
                                 </div>
                             </div>
                             <div className="eg-funfact-text float-right wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -82,32 +81,24 @@ class Team extends Component {
                                 </div>
                                         <div className="fun-fact-counter position-relative clearfix">
                                             <div className="eg-counter-number pera-content text-center">
-                                                <span className="odometer" data-count="20">00</span><strong>+</strong>
-                                                <p>Awesome
-                                                Integratios</p>
+                                                <span className="odometer" data-count="20">2000</span><strong>+</strong>
+                                                <p>Application таталтын тоо</p>
                                             </div>
                                             <div className="eg-counter-number pera-content text-center">
-                                                <span className="odometer" data-count="2000">00</span><strong>+</strong>
-                                                <p>Active
-                                                users</p>
+                                                <span className="odometer" data-count="2000">3000</span><strong>+</strong>
+                                                <p>Нэвтрүүлсэн сөх тоо</p>
                                             </div>
                                             <div className="eg-counter-number pera-content text-center">
-                                                <span className="odometer" data-count="5000">00</span><strong>+</strong>
-                                                <p>Downloads
-                                                done</p>
+                                            <span className="odometer" data-count="5000">4000</span><strong>+</strong>
+                                                <p>Нийт өрхын тоо</p>
                                             </div>
-                                            {/* <div className="eg-counter-number pera-content text-center">
-                                                <span className="odometer" data-count="2500">00</span><strong>+</strong>
-                                                <p>5 stars
-                                                ratings</p>
-                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="fn-bg-shape position-absolute"><img src="assets/img/app-landing/shape/fns1.png" alt=""/></div>
+                    <div className="fn-bg-shape position-absolute"><img src="assets/img/app-landing/shape/fns1.png" alt="xaxa"/></div>
                 </section>
         )
     }

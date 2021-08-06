@@ -1,5 +1,5 @@
-import React, {useState,useEffect} from 'react';
-import axios from 'axios';
+import React from 'react';
+// import axios from 'axios';
 
 const Screenshot = () => {
     // const [image_neg,setImage_neg] = useState([]);
@@ -18,11 +18,8 @@ const Screenshot = () => {
     <section id="ei-screenshots" className="ei-screenshots-section position-relative">
     <div className="container">
         <div className="eight-section-title appeight-headline pera-content text-center">
-            <span className="eg-title-tag"> Ail application <i className="square-shape"> <i></i><i></i><i></i><i></i></i></span>
-            <h2>App screenshots 
-                {/* <span>know properly the app!</span> */}
+            <h2>Системийн мэдээлэл 
             </h2>
-                {/* <p>As a SAAS web crawler expert, I help organizations adjust to the expanding significance of internet promoting.</p> */}
             </div>
 
             <div className="row ei-appScreenshotCarousel-container swiper-container">

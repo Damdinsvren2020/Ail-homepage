@@ -118,7 +118,7 @@ class Featured extends Component {
                            }
                                 </div>
                                 <div className="ei-feature-more">
-                                    <a href="ail.mn"><i className="fas fa-plus"></i></a>
+                                    <a href="http://ail.mn/login?redirect=%2F"><i className="fas fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +149,7 @@ class Featured extends Component {
                            }
                                 </div>
                                 <div className="ei-feature-more">
-                                    <a href="ail.mn"><i className="fas fa-plus"></i></a>
+                                    <a href="http://ail.mn/login?redirect=%2F" ><i className="fas fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ class Featured extends Component {
                            }
                                 </div>
                                 <div className="ei-feature-more">
-                                    <a href="#"><i className="fas fa-plus"></i></a>
+                                    <a href="http://ail.mn/login?redirect=%2F" ><i className="fas fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +211,7 @@ class Featured extends Component {
                            }
                                 </div>
                                 <div className="ei-feature-more">
-                                    <a href="#"><i className="fas fa-plus"></i></a>
+                                    <a href="http://ail.mn/login?redirect=%2F"><i className="fas fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>

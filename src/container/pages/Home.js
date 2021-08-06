@@ -59,12 +59,12 @@ class Home extends React.Component{
                         <div className="ei-footer-widget appeight-headline  ul-li-block">
                             <h3 className="ei-widget-title">Холбоо барих:</h3>
                             <h4>
-                                <i  style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100",fontFamily:"inherit"}} className="fas fa-phone"></i>
+                                <i  style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}} className="fas fa-phone"></i>
                                 Утасны дугаар: 7711 9660
                                 <span>(Даваа - Баасан)</span>
                             </h4>
                             <h4 style={{width:"106px"}}>
-                               <i style={{fontFamily:"inherit",fontFamily:"inherit"}} className="fas fa-map-marker-alt"></i>
+                               <i style={{fontFamily:"inherit"}} className="fas fa-map-marker-alt"></i>
                                Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот                                
                             </h4>
                             <div className="download-btn">

@@ -50,7 +50,7 @@ class Showcase extends Component {
                 <div className="eight-service-slide   clearfix wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div className="ei-service-slide-btn ul-li-block clearfix">
                         <div className="banner-pager clearfix" id="banner-pager">
-                            <a className="pager" data-slide-index="0">
+                            <a href="http://ail.mn/login?redirect=%2F" className="pager" data-slide-index="0">
                                 <div className="ei-service-icon-text text-right appeight-headline pera-content">
                                     <div className="ei-service-icon float-right text-center">
                                         <i className="flaticon-bug"></i>
@@ -78,7 +78,7 @@ class Showcase extends Component {
                                 </div>
                             </a>
         
-                            <a className="pager" data-slide-index="1">
+                            <a href="http://ail.mn/login?redirect=%2F" className="pager" data-slide-index="1">
                                 <div className="ei-service-icon-text text-right appeight-headline pera-content">
                                     <div className="ei-service-icon float-right text-center">
                                         <i className="flaticon-crop"></i>
@@ -106,7 +106,7 @@ class Showcase extends Component {
                                 </div>
                             </a>
         
-                            <a className="pager" data-slide-index="2">
+                            <a href="http://ail.mn/login?redirect=%2F" className="pager" data-slide-index="2">
                                 <div className="ei-service-icon-text text-right appeight-headline pera-content">
                                     <div className="ei-service-icon float-right text-center">
                                         <i className="flaticon-web-development"></i>
