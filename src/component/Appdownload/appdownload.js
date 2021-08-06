@@ -5,7 +5,8 @@ class Appdownload extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            appdownload_title: []
+            appdownload_title: [],
+            teams_zurag:[]
         }
     }
     componentDidMount() {
@@ -13,6 +14,14 @@ class Appdownload extends Component {
           .then(response => {
             const appdownload_title = response.data.data;
             this.setState({ appdownload_title: appdownload_title });
+          })
+          .catch(error => {
+            console.log(error)
+        })
+        axios.get('http://103.29.144.253:8092/api/v1/App_download')
+          .then(response => {
+            const teams_zurag = response.data.data;
+            this.setState({ teams_zurag: teams_zurag });
           })
           .catch(error => {
             console.log(error)
@@ -27,14 +36,14 @@ class Appdownload extends Component {
                     <div className="col-lg-6">
                         <div className="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <img src="assets/img/app-landing/mockup/amu2.png" alt=""/>
-                            {/* {
-                            this.state.appdownload_title && this.state.appdownload_title.length > 0 ?
-                                    this.state.appdownload_title.map((appdownload_title, index)=>
-                                        <img key={appdownload_title.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${appdownload_title.appdownload_image}`} alt=""/>
+                            {
+                                    this.state.teams_zurag && this.state.teams_zurag.length > 0 ?
+                                    this.state.teams_zurag.map((teams_zurag, index)=>
+                                        <img key={teams_zurag.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_zurag.appdownload_image}`} alt="xaxaxa"/>
                                     )
-                            :
-                            null
-                            } */}
+                                 :
+                                null
+                            }
                         </div>
                     </div>
                     <div className="col-lg-6">

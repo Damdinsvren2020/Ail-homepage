@@ -59,7 +59,7 @@ class Showcase extends Component {
                                     {
                             this.state.showcaseneg && this.state.showcaseneg.length > 0 ?
                                     this.state.showcaseneg.map((showcaseneg, index)=>
-                                            <h3 key={showcaseneg.id}>{showcaseneg.showcase_neg_garchig}
+                                            <h3  style={{fontFamily:"inherit",}} key={showcaseneg.id}>{showcaseneg.showcase_neg_garchig}
                                             </h3>
                                     )
                               :
@@ -68,7 +68,7 @@ class Showcase extends Component {
                               {
                             this.state.showcaseneg && this.state.showcaseneg.length > 0 ?
                                     this.state.showcaseneg.map((showcaseneg, index)=>
-                                            <p key={showcaseneg.id}>{showcaseneg.showcase_neg_tailbar}
+                                            <p  style={{fontFamily:"inherit",}} key={showcaseneg.id}>{showcaseneg.showcase_neg_tailbar}
                                             </p>
                                     )
                               :
@@ -87,7 +87,7 @@ class Showcase extends Component {
                                     {
                             this.state.showcase_hoyor_garchig && this.state.showcase_hoyor_garchig.length > 0 ?
                                     this.state.showcase_hoyor_garchig.map((showcase_hoyor_garchig, index)=>
-                                            <h3 key={showcase_hoyor_garchig.id}>{showcase_hoyor_garchig.showcase_hoyor_garchig}
+                                            <h3  style={{fontFamily:"inherit",}} key={showcase_hoyor_garchig.id}>{showcase_hoyor_garchig.showcase_hoyor_garchig}
                                             </h3>
                                     )
                             :
@@ -96,7 +96,7 @@ class Showcase extends Component {
                                {
                             this.state.showcase_hoyor_garchig && this.state.showcase_hoyor_garchig.length > 0 ?
                                     this.state.showcase_hoyor_garchig.map((showcase_hoyor_garchig, index)=>
-                                            <p key={showcase_hoyor_garchig.id}>{showcase_hoyor_garchig.showcase_hoyor_tailbar}
+                                            <p  style={{fontFamily:"inherit",}} key={showcase_hoyor_garchig.id}>{showcase_hoyor_garchig.showcase_hoyor_tailbar}
                                             </p>
                                     )
                             :
@@ -115,7 +115,7 @@ class Showcase extends Component {
                                     {
                             this.state.case_garchig_guraw && this.state.case_garchig_guraw.length > 0 ?
                                     this.state.case_garchig_guraw.map((case_garchig_guraw, index)=>
-                                            <h3 key={case_garchig_guraw.id}>{case_garchig_guraw.case_garchig_guraw}
+                                            <h3  style={{fontFamily:"inherit",}} key={case_garchig_guraw.id}>{case_garchig_guraw.case_garchig_guraw}
                                             </h3>
                                     )
                                :
@@ -124,7 +124,7 @@ class Showcase extends Component {
    {
                             this.state.case_garchig_guraw && this.state.case_garchig_guraw.length > 0 ?
                                     this.state.case_garchig_guraw.map((case_garchig_guraw, index)=>
-                                            <p key={case_garchig_guraw.id}>{case_garchig_guraw.case_tailbar_guraw}
+                                            <p  style={{fontFamily:"inherit",}} key={case_garchig_guraw.id}>{case_garchig_guraw.case_tailbar_guraw}
                                             </p>
                                     )
                                :
@@ -196,7 +196,7 @@ class Showcase extends Component {
                     {
                             this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
                                     this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                            <h2 key={show_case_banner_text.id}>{show_case_banner_text.show_case_banner_text}
+                                            <h2  style={{fontFamily:"inherit",}} key={show_case_banner_text.id}>{show_case_banner_text.show_case_banner_text}
                                             </h2>
                                     )
                                :

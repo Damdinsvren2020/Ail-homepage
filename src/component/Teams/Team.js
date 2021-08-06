@@ -4,7 +4,8 @@ class Team extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            teams_garchig: []
+            teams_garchig: [],
+            teams_zurag:[]
         }
     }
     componentDidMount() {
@@ -12,6 +13,14 @@ class Team extends Component {
           .then(response => {
             const teams_garchig = response.data.data;
             this.setState({ teams_garchig: teams_garchig });
+          })
+          .catch(error => {
+            console.log(error)
+        })
+        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+          .then(response => {
+            const teams_zurag = response.data.data;
+            this.setState({ teams_zurag: teams_zurag });
           })
           .catch(error => {
             console.log(error)
@@ -26,30 +35,14 @@ class Team extends Component {
                         <div className="eg-funfact-content clearfix position-relative">
                             <div className="eg-fun-fact-mockup wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="main-mockup">
-                                    {/* {
-                                    this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
-                                        this.state.teams_garchig.map((teams_garchig, index)=>
-                                            <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_neg}`} alt="xaxa"/>
-                                        )
-                                    :
-                                    null
-                                    }         
-                                    {
-                                    this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
-                                        this.state.teams_garchig.map((teams_garchig, index)=>
-                                            <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_hoyor}`} alt="xaxa"/>
-                                        )
-                                    :
-                                    null
-                                    }          */}
-                                  {/* {
-                                 this.state.teams_garchig && this.state.teams_garchig.length > 0 ?
-                                    this.state.teams_garchig.map((teams_garchig, index)=>
-                                        <img key={teams_garchig.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_garchig.image_guraw}`} alt="alt"/>
+                                {
+                                    this.state.teams_zurag && this.state.teams_zurag.length > 0 ?
+                                    this.state.teams_zurag.map((teams_zurag, index)=>
+                                        <img key={teams_zurag.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_zurag.image_neg}`} alt="xaxaxa"/>
                                     )
                                  :
-                                 null
-                                }          */}
+                                null
+                                }
                                 </div>
                                 <div className="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'>
                                     <img src="assets/img/app-landing/shape/fc1.png" alt="xaxa"/>

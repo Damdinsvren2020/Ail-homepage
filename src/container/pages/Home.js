@@ -29,9 +29,10 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                                <img src="assets/img/app-landing/logo/Solution.png" alt=""/>
+                                <img src="assets/img/app-landing/logo/Solution1.png" alt=""/>
+
                             </div>
-                            <p>
+                            <p style={{fontFamily:"inherit"}}>
                                 Айл систем.
                             </p>
                             <div className="ei-payment-mathod">
@@ -42,29 +43,29 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget appeight-headline ul-li-block">
                             <ul>
-                                <li><a href="#eight-banner">Нүүр хуудас</a></li>
+                                <li style={{fontFamily:"inherit"}}><a href="#eight-banner">Нүүр хуудас</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#feature-eight">Үйлчилгээ</a></li>
+                                <li style={{fontFamily:"inherit"}}><a href="#feature-eight">Үйлчилгээ</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#eight-service">Бидний тухай</a></li>
+                                <li style={{fontFamily:"inherit"}}><a href="#eight-service">Бидний тухай</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                                <li style={{fontFamily:"inherit"}}><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="ei-footer-widget appeight-headline  ul-li-block">
-                            <h3 className="ei-widget-title">Холбоо барих:</h3>
-                            <h4>
-                                <i  style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}} className="fas fa-phone"></i>
+                        <div >
+                            <h3 style={{fontFamily:"inherit",fontSize:"20px"}} >Холбоо барих:</h3>
+                            <h4 style={{fontFamily:"inherit",fontSize:"16px",display:"grid"}} >
+                                <i style={{fontFamily:"inherit",fontSize:"18px",display:"grid"}}></i>
                                 Утасны дугаар: 7711 9660
-                                <span>(Даваа - Баасан)</span>
+                                <span style={{fontFamily:"inherit"}}>(Даваа - Баасан)</span>
                             </h4>
-                            <h4 style={{width:"106px"}}>
-                               <i style={{fontFamily:"inherit"}} className="fas fa-map-marker-alt"></i>
+                            <h4 style={{fontFamily:"inherit",fontSize:"16px",display:"grid"}} >
+                               <i style={{fontFamily:"inherit",fontSize:"16px",display:"grid"}} ></i>
                                Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот                                
                             </h4>
                             <div className="download-btn">
