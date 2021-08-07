@@ -6,7 +6,7 @@ class Appdownload extends Component {
         super(props)
         this.state = {
             appdownload_title: [],
-            teams_zurag:[]
+            appimage:[],
         }
     }
     componentDidMount() {
@@ -19,13 +19,14 @@ class Appdownload extends Component {
             console.log(error)
         })
         axios.get('http://103.29.144.253:8092/api/v1/App_download')
-          .then(response => {
-            const teams_zurag = response.data.data;
-            this.setState({ teams_zurag: teams_zurag });
-          })
-          .catch(error => {
-            console.log(error)
+        .then(response => {
+          const appimage = response.data.data[0];
+          this.setState({ appimage: appimage });
         })
+        .catch(error => {
+          console.log(error)
+      })
+      
       } 
     render() {
         return (
@@ -37,13 +38,9 @@ class Appdownload extends Component {
                         <div className="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <img src="assets/img/app-landing/mockup/amu2.png" alt=""/>
                             {
-                                    this.state.teams_zurag && this.state.teams_zurag.length > 0 ?
-                                    this.state.teams_zurag.map((teams_zurag, index)=>
-                                        <img key={teams_zurag.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_zurag.appdownload_image}`} alt="xaxaxa"/>
-                                    )
-                                 :
-                                null
-                            }
+                            this.state.appimage && this.state.appimage.appdownload_image &&
+                            <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${this.state.appimage.appdownload_image}`} alt="xaxaxa"/>
+                            }  
                         </div>
                     </div>
                     <div className="col-lg-6">

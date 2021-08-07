@@ -5,13 +5,15 @@ class Team extends Component {
         super(props)
         this.state = {
             teams_garchig: [],
-            teams_zurag:[]
+            teams_zurag:[],
+            teams_zuraghoyor:[]
         }
     }
     componentDidMount() {
         axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const teams_garchig = response.data.data;
+            console.log('zurag',response.data.data)
             this.setState({ teams_garchig: teams_garchig });
           })
           .catch(error => {
@@ -25,6 +27,14 @@ class Team extends Component {
           .catch(error => {
             console.log(error)
         })
+        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+        .then(response => {
+          const teams_zuraghoyor = response.data.data[0];
+          this.setState({ teams_zuraghoyor: teams_zuraghoyor });
+        })
+        .catch(error => {
+          console.log(error)
+      })
     } 
     render() {
         return (
@@ -38,11 +48,15 @@ class Team extends Component {
                                 {
                                     this.state.teams_zurag && this.state.teams_zurag.length > 0 ?
                                     this.state.teams_zurag.map((teams_zurag, index)=>
-                                        <img key={teams_zurag.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_zurag.image_neg}`} alt="xaxaxa"/>
+                                        <img key={teams_zurag.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${teams_zurag.image_neg}`} alt="teams_zurag_neg"/>
                                     )
                                  :
                                 null
                                 }
+                                {
+                                    this.state.teams_zuraghoyor && this.state.teams_zuraghoyor.appdownload_image &&
+                                    <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${this.state.teams_zuraghoyor.image_hoyor}`} alt="teams_zurag_hoyor"/>
+                                }  
                                 </div>
                                 <div className="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'>
                                     <img src="assets/img/app-landing/shape/fc1.png" alt="xaxa"/>
