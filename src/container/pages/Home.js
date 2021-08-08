@@ -29,7 +29,7 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                            <img src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/>
+                            {/* <img src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/> */}
                             </div>
                             <p style={{fontFamily:"inherit"}}>
                                 Айл систем.
@@ -42,34 +42,34 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget appeight-headline ul-li-block">
                             <ul>
-                                <li style={{fontFamily:"inherit"}}><a href="#eight-banner">Нүүр хуудас</a></li>
+                                <li><a href="#eight-banner">Нүүр хуудас</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"inherit"}}><a href="#feature-eight">Үйлчилгээ</a></li>
+                                <li><a href="#feature-eight">Үйлчилгээ</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"inherit"}}><a href="#eight-service">Бидний тухай</a></li>
+                                <li><a href="#eight-service">Бидний тухай</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"inherit"}}><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                                <li><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div >
-                            <h3 style={{fontFamily:"inherit",fontSize:"20px"}} >Холбоо барих:</h3>
-                            <h4 style={{fontFamily:"inherit",fontSize:"16px",display:"grid"}} >
-                                <i style={{fontFamily:"inherit",fontSize:"18px",display:"grid"}}></i>
+                            <h3 style={{fontSize:"20px"}} >Холбоо барих:</h3>
+                            <h4 style={{fontSize:"16px",display:"grid"}} >
+                                <i style={{fontSize:"18px",display:"grid"}}></i>
                                 Утасны дугаар: 7711 9660
-                                <span style={{fontFamily:"inherit"}}>(Даваа - Баасан)</span>
+                                <span>(Даваа - Баасан)</span>
                             </h4>
-                            <h4 style={{fontFamily:"inherit",fontSize:"16px",display:"grid"}} >
-                               <i style={{fontFamily:"inherit",fontSize:"16px",display:"grid"}} ></i>
+                            <h4 style={{fontSize:"16px",display:"grid"}} >
+                               <i style={{fontSize:"16px",display:"grid"}} ></i>
                                Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот                                
                             </h4>
                             <div className="download-btn">
-                                <a href="https://www.google.mn/"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
-                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/gp1.png" alt=""/></a>
+                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
+                                <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/logo/gp1.png" alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ class Home extends React.Component{
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="ei-copyright-text">
-                                    <p>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky pro solution</a></p>
+                                    <p>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
                                 </div>
                             </div>
                         </div>

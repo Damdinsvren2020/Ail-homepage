@@ -69,17 +69,17 @@ class Appdownload extends Component {
                             }
                             </div>
                             <div className="app-down-btn">
-                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/shape/btn1.png" alt=""/></a>
-                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/shape/btn2.png" alt=""/></a>
+                                <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/shape/btn1.png" alt="xaxa"/></a>
+                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/shape/btn2.png" alt="xaxa"/></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img src="assets/img/app-landing/background/apps1.png" alt=""/></div>
-        <div className="ei-appdownloaad-shape app-shape2" data-parallax='{"x" : -120}'><img src="assets/img/app-landing/background/apps2.png" alt=""/></div>
-        <div className="ei-appdownloaad-shape app-shape3" data-parallax='{"y" : -100}'><img src="assets/img/app-landing/background/apps3.png" alt=""/></div>
+        <div className="ei-appdownloaad-shape app-shape1" data-parallax='{"y" : -100}'><img src="assets/img/app-landing/background/apps1.png" alt="xaxa"/></div>
+        <div className="ei-appdownloaad-shape app-shape2" data-parallax='{"x" : -120}'><img src="assets/img/app-landing/background/apps2.png" alt="xaxa"/></div>
+        <div className="ei-appdownloaad-shape app-shape3" data-parallax='{"y" : -100}'><img src="assets/img/app-landing/background/apps3.png" alt="xaxa"/></div>
     </section>
         )
     }

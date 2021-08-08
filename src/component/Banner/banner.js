@@ -30,11 +30,11 @@ class Banner extends Component {
                             {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <h1 style={{fontFamily:"inherit"}} key={banner.id}>{banner.title}
+                                            <h1 key={banner.id}>{banner.title}
                                                 <span className="cd-words-wrapper">
                                                     <b className="is-visible"></b>
-                                                    <b style={{fontFamily:"inherit"}}>showcase</b>
-                                                    <b style={{fontFamily:"inherit"}}>screenshoot</b>
+                                                    <b>showcase</b>
+                                                    <b>screenshoot</b>
                                                 </span>
                                             </h1>
                                     )
@@ -44,7 +44,7 @@ class Banner extends Component {
                              {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <p style={{fontFamily:"inherit",}} key={banner.id}>{banner.description}
+                                            <p key={banner.id}>{banner.description}
                                             </p>
                                     )
                             :

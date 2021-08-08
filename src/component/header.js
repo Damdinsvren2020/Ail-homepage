@@ -12,10 +12,10 @@ class Header extends React.Component {
                 </div>
                 <nav className="navigation-eight ul-li">
                     <ul>
-                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}} href="#eight-banner">Нүүр хуудас</a></li>
-                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}}  href="#feature-eight">Үйлчилгээ</a></li>
-                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}}  href="#eight-service">Бидний тухай</a></li>
-                        <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px",fontWeight:"100"}}  href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}} href="#eight-banner">Нүүр хуудас</a></li>
+                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}}  href="#feature-eight">Үйлчилгээ</a></li>
+                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}}  href="#eight-service">Бидний тухай</a></li>
+                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}}  href="#ei-screenshots">Системийн мэдээлэл</a></li>
                     </ul>
                 </nav>
                 <div className="h-eight-social ul-li float-right clearfix">
@@ -38,15 +38,15 @@ class Header extends React.Component {
                         <div className="appi-ei-mobile_menu_close appi-ei-open_mobile_menu">
                             <i className="far fa-times-circle"></i>
                         </div>
-                        <div className="m-brand-logo text-center">
+                        {/* <div className="m-brand-logo text-center">
                             <img src="assets/img/app-landing/logo/f-logo.png" alt=""/>
-                        </div>
+                        </div> */}
                         <nav className="appi-ei-mobile-main-navigation  clearfix ul-li">
                             <ul id="main-nav" className="navbar-nav text-capitalize clearfix">
-                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#eight-banner">Нүүр хуудас</a></li>
-                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#feature-eight">Үйлчилгээ</a></li>
-                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#eight-service">Бидний тухай</a></li>
-                                <li><a className="nav-link" style={{fontFamily:"inherit",fontSize:"20px"}}  href="#ei-screenshots">App мэдээлэл</a></li>
+                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#eight-banner">Нүүр хуудас</a></li>
+                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#feature-eight">Үйлчилгээ</a></li>
+                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#eight-service">Бидний тухай</a></li>
+                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#ei-screenshots">App мэдээлэл</a></li>
                             </ul>
                         </nav>
                     </div>
