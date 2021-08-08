@@ -43,10 +43,10 @@ class Header extends React.Component {
                         </div> */}
                         <nav className="appi-ei-mobile-main-navigation  clearfix ul-li">
                             <ul id="main-nav" className="navbar-nav text-capitalize clearfix">
-                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#eight-banner">Нүүр хуудас</a></li>
-                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#feature-eight">Үйлчилгээ</a></li>
-                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#eight-service">Бидний тухай</a></li>
-                                <li><a className="nav-link" style={{fontSize:"20px"}}  href="#ei-screenshots">App мэдээлэл</a></li>
+                                <li><a className="nav-link" style={{fontSize:"13px"}}  href="#eight-banner">Нүүр хуудас</a></li>
+                                <li><a className="nav-link" style={{fontSize:"13px"}}  href="#feature-eight">Үйлчилгээ</a></li>
+                                <li><a className="nav-link" style={{fontSize:"13px"}}  href="#eight-service">Бидний тухай</a></li>
+                                <li><a className="nav-link" style={{fontSize:"13px"}}  href="#ei-screenshots">Системийн мэдээлэл</a></li>
                             </ul>
                         </nav>
                     </div>
