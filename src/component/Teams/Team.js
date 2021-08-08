@@ -6,14 +6,14 @@ class Team extends Component {
         this.state = {
             teams_garchig: [],
             teams_zurag:[],
-            teams_zuraghoyor:[]
+            zurag_neg:[],
+            teams_zurattailbar:[]
         }
     }
     componentDidMount() {
         axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const teams_garchig = response.data.data;
-            console.log('zurag',response.data.data)
             this.setState({ teams_garchig: teams_garchig });
           })
           .catch(error => {
@@ -28,9 +28,17 @@ class Team extends Component {
             console.log(error)
         })
         axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+          .then(response => {
+            const zurag_neg = response.data.data;
+            this.setState({ zurag_neg: zurag_neg });
+          })
+          .catch(error => {
+            console.log(error)
+        })
+        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
         .then(response => {
-          const teams_zuraghoyor = response.data.data[0];
-          this.setState({ teams_zuraghoyor: teams_zuraghoyor });
+          const teams_zurattailbar = response.data.data[0];
+          this.setState({ teams_zurattailbar: teams_zurattailbar });
         })
         .catch(error => {
           console.log(error)
@@ -52,12 +60,28 @@ class Team extends Component {
                                     )
                                  :
                                 null
-                                }
-                                {
-                                    this.state.teams_zuraghoyor && this.state.teams_zuraghoyor.appdownload_image &&
-                                    <img src={`${process.env.REACT_APP_API_URL}/storage/app/media${this.state.teams_zuraghoyor.image_hoyor}`} alt="teams_zurag_hoyor"/>
-                                }  
-                                </div>
+                                }         
+                            </div>
+                            <div className="fn-shape fn-shape-item1" data-parallax='{"y" : 50}'>
+                            {
+                                    this.state.zurag_neg && this.state.zurag_neg.length > 0 ?
+                                    this.state.zurag_neg.map((zurag_neg, index)=>
+                                        <img key={zurag_neg.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${zurag_neg.image_hoyor}`} alt="teams_zurag_hoyor"/>
+                                    )
+                                 :
+                                null
+                            }              
+                            </div>
+                            <div className="fn-shape fn-shape-item2" data-parallax='{"y" : 60}'>
+                            {
+                                    this.state.zurag_neg && this.state.zurag_neg.length > 0 ?
+                                    this.state.zurag_neg.map((zurag_neg, index)=>
+                                        <img key={zurag_neg.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${zurag_neg.image_guraw}`} alt="teams_zurag_hoyor"/>
+                                    )
+                                 :
+                                null
+                            }             
+                            </div>
                                 <div className="fn-shape fn-shape-item3" data-parallax='{"x" : -50}'>
                                     <img src="assets/img/app-landing/shape/fc1.png" alt="xaxa"/>
                                 </div>

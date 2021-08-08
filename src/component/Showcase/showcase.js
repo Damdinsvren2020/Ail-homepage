@@ -77,7 +77,6 @@ class Showcase extends Component {
                                 </div>
                                 </div>
                             </a>
-        
                             <a href="http://ail.mn/login?redirect=%2F" className="pager" data-slide-index="1">
                                 <div className="ei-service-icon-text text-right appeight-headline pera-content">
                                     <div className="ei-service-icon float-right text-center">
@@ -105,7 +104,6 @@ class Showcase extends Component {
                                 </div>
                                 </div>
                             </a>
-        
                             <a href="http://ail.mn/login?redirect=%2F" className="pager" data-slide-index="2">
                                 <div className="ei-service-icon-text text-right appeight-headline pera-content">
                                     <div className="ei-service-icon float-right text-center">
@@ -141,56 +139,56 @@ class Showcase extends Component {
                     <div className="ei-service-slide-mbl"data-background="assets/img/app-landing/mockup/slider-01.png">
                         <div className="slide-inner">
                             <div className="ei-service-slide">
-                                <div className="slide-item">
-                                    <div className="image">
-                                    {
+                        <div className="slide-item">
+                            <div className="image">
+                            {
                             this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
                                     this.state.show_case_banner_text.map((show_case_banner_text, index)=>
                                         <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
                                     )
                                 :
                                null
-                                }
-                                    </div>
-                                </div>
-                                <div className="slide-item">
-                                <div className="image">
-                                {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }
-                                    </div>
-                                </div>
-                                <div className="slide-item">
-                                <div className="image">
-                                {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }
-                                    </div>
-                                </div>
-                                {/* <div className="slide-item">
-                                    <div className="image">
-                                    {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }
-                                    </div>
-                                </div> */}
-        
+                                }                            
                             </div>
+                        </div>
+                        {/* <div className="slide-item">
+                            <div className="image">
+                            {
+                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
+                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
+                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
+                                    )
+                                :
+                               null
+                            }                            
+                            </div>
+                        </div>
+                        <div className="slide-item">
+                            <div className="image">
+                            {
+                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
+                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
+                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
+                                    )
+                                :
+                               null
+                            }                            
+                            </div>
+                        </div>
+                        <div className="slide-item">
+                            <div className="image">
+                            {
+                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
+                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
+                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
+                                    )
+                                :
+                               null
+                            }                            
+                            </div>
+                        </div> */}
+
+                    </div>
                         </div>
                     </div>
                     {
@@ -200,8 +198,8 @@ class Showcase extends Component {
                                             </h2>
                                     )
                                :
-                               null
-                   }  
+                            null
+                    }  
                 </div>
             </div>
             <div className="s-shape-bg1" data-parallax='{"x" : -70}'>
