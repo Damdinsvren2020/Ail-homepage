@@ -11,7 +11,7 @@ class Screenshot extends Component {
         axios.get('http://103.29.144.253:8092/api/v1/App_screenshot')
           .then(response => {
             const zurguud = response.data.data[0];
-            // console.log('App screenshot ehnii zurag',response.data.data[0])
+            console.log('App screenshot ehnii zurag',response.data.data[0])
             this.setState({ zurguud: zurguud });
           })
           .catch(error => {

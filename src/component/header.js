@@ -7,7 +7,7 @@ class Header extends React.Component {
             <div className="appheader-content">
                 <div className="site-logo float-left">
                     <a href="https://www.google.mn/">
-                        <img src="assets/img/app-landing/logo/solution1.png" alt=""/>
+                        <img src="assets/img/app-landing/logo/aillogoygaan.png" alt="xaxa"/>
                     </a>
                 </div>
                 <nav className="navigation-eight ul-li">

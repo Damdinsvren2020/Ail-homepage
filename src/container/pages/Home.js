@@ -29,7 +29,7 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                            {/* <img src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/> */}
+                            <img src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/>
                             </div>
                             <p style={{fontFamily:"inherit"}}>
                                 Айл систем.
