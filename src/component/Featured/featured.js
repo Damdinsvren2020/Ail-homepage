@@ -1,4 +1,5 @@
 import React ,{Component} from 'react';
+import featured from './featured.css'
 import axios from 'axios';
 
 class Featured extends Component {
@@ -70,20 +71,20 @@ class Featured extends Component {
                 <span className="eg-title-tag">
                     {/* Fetaured services <i className="square-shape"><i></i><i></i> <i></i> <i></i> </i> */}
                 </span>
-                        {
+                        {/* {
                             this.state.Songohshaltgaan && this.state.Songohshaltgaan.length > 0 ?
                                     this.state.Songohshaltgaan.map((Songohshaltgaan, index)=>
-                                            <h2  style={{fontSize:"25px",fontWeight:"100"}} key={Songohshaltgaan.id}>{Songohshaltgaan.title}
+                                            <h2 key={Songohshaltgaan.id}>{Songohshaltgaan.title}
                                             </h2>
                                     )
                             :
                             null
-                        }
+                        } */}
                            {
                             this.state.Songohshaltgaan && this.state.Songohshaltgaan.length > 0 ?
                                     this.state.Songohshaltgaan.map((Songohshaltgaan, index)=>
-                                            <h2  style={{fontSize:"25px",fontWeight:"100",textAlign:"justify"}} key={Songohshaltgaan.id}>{Songohshaltgaan.description}
-                                            </h2>
+                                            <p className={featured.featuredh2}   key={Songohshaltgaan.id}>{Songohshaltgaan.description}
+                                            </p>
                                     )
                             :
                             null
@@ -92,7 +93,7 @@ class Featured extends Component {
                 <div className="eight-feature-content">
                     <div className="row justify-content-md-center">
                         <div className="col-lg-3 col-md-6  wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div className="eight-feature-box text-center position-relative">
+                            <div className="eight-feature-box text-center position-relative" style={{height:"100%"}}>
                                 <div className="feature-icon8 position-relative">
                                     <i className="flaticon-logo"></i>
                                     <span className="ei-icon-bg"></span>
@@ -101,7 +102,7 @@ class Featured extends Component {
                                 {
                             this.state.Songohshaltgaanneg && this.state.Songohshaltgaanneg.length > 0 ?
                                     this.state.Songohshaltgaanneg.map((Songohshaltgaanneg, index)=>
-                                            <h2  key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_garchig}
+                                            <h2  className={featured.featuredh2}   key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_garchig}
                                             </h2>
                                     )
                             :
@@ -110,7 +111,7 @@ class Featured extends Component {
                             {
                             this.state.Songohshaltgaanneg && this.state.Songohshaltgaanneg.length > 0 ?
                                     this.state.Songohshaltgaanneg.map((Songohshaltgaanneg, index)=>
-                                            <p  style={{textAlign:"justify"}} key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_tailbar}
+                                            <p style={{marginTop:"16px",fontSize:"14px"}} className={featured.featuredp} key={Songohshaltgaanneg.id}>{Songohshaltgaanneg.shaltgaan_neg_tailbar}
                                             </p>
                                     )
                             :
@@ -122,8 +123,8 @@ class Featured extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div className="eight-feature-box text-center position-relative">
+                        <div className="col-lg-3 col-md-6 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms" >
+                            <div className="eight-feature-box text-center position-relative" style={{height:"100%"}}>
                                 <div className="feature-icon8 position-relative">
                                     <i className="flaticon-computer"></i>
                                     <span className="ei-icon-bg"></span>
@@ -132,7 +133,7 @@ class Featured extends Component {
                                     {
                             this.state.Songohshaltgaanhoyor && this.state.Songohshaltgaanhoyor.length > 0 ?
                                     this.state.Songohshaltgaanhoyor.map((Songohshaltgaanhoyor, index)=>
-                                            <h2  key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_garchig}
+                                            <h2  className={featured.featuredh2}   key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_garchig}
                                             </h2>
                                     )
                             :
@@ -141,7 +142,7 @@ class Featured extends Component {
                              {
                             this.state.Songohshaltgaanhoyor && this.state.Songohshaltgaanhoyor.length > 0 ?
                                     this.state.Songohshaltgaanhoyor.map((Songohshaltgaanhoyor, index)=>
-                                            <p style={{textAlign:"justify"}} key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_tailbar}
+                                            <p style={{marginTop:"16px",fontSize:"14px"}} className={featured.featuredp} key={Songohshaltgaanhoyor.id}>{Songohshaltgaanhoyor.shaltgaan_hoyr_tailbar}
                                             </p>
                                     )
                             :
@@ -153,8 +154,8 @@ class Featured extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 wow fadeFromUp" data-wow-delay="900ms" data-wow-duration="1500ms">
-                            <div className="eight-feature-box text-center position-relative">
+                        <div className="col-lg-3 col-md-6 wow fadeFromUp"  data-wow-delay="900ms" data-wow-duration="1500ms">
+                            <div className="eight-feature-box text-center position-relative" style={{height:"100%"}}>
                                 <div className="feature-icon8 position-relative">
                                     <i className="flaticon-pen-tool"></i>
                                     <span className="ei-icon-bg"></span>
@@ -163,7 +164,7 @@ class Featured extends Component {
                                 {
                             this.state.Songohshaltgaanguraw && this.state.Songohshaltgaanguraw.length > 0 ?
                                     this.state.Songohshaltgaanguraw.map((Songohshaltgaanguraw, index)=>
-                                            <h2 key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_garchig}
+                                            <h2  className={featured.featuredh2}  key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_garchig}
                                             </h2>
                                     )
                             :
@@ -172,7 +173,7 @@ class Featured extends Component {
                              {
                             this.state.Songohshaltgaanguraw && this.state.Songohshaltgaanguraw.length > 0 ?
                                     this.state.Songohshaltgaanguraw.map((Songohshaltgaanguraw, index)=>
-                                            <p style={{textAlign:"justify"}} key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_tailbar}
+                                            <p style={{marginTop:"16px",fontSize:"14px"}} className={featured.featuredp} key={Songohshaltgaanguraw.id}>{Songohshaltgaanguraw.shaltgaan_guraw_tailbar}
                                             </p>
                                     )
                             :
@@ -184,8 +185,8 @@ class Featured extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 wow fadeFromUp" data-wow-delay="1200ms" data-wow-duration="1500ms">
-                            <div className="eight-feature-box text-center position-relative">
+                        <div className="col-lg-3 col-md-6 wow fadeFromUp"  data-wow-delay="1200ms" data-wow-duration="1500ms">
+                            <div className="eight-feature-box text-center position-relative" style={{height:"100%"}}>
                                 <div className="feature-icon8 position-relative">
                                     <i className="flaticon-layers"></i>
                                     <span className="ei-icon-bg"></span>
@@ -194,7 +195,7 @@ class Featured extends Component {
                                 {
                             this.state.Songohshaltgaanduruw && this.state.Songohshaltgaanduruw.length > 0 ?
                                     this.state.Songohshaltgaanduruw.map((Songohshaltgaanduruw, index)=>
-                                            <h2 key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_garchig}
+                                            <h2  className={featured.featuredh2}  key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_garchig}
                                             </h2>
                                     )
                             :
@@ -203,7 +204,7 @@ class Featured extends Component {
                              {
                             this.state.Songohshaltgaanduruw && this.state.Songohshaltgaanduruw.length > 0 ?
                                     this.state.Songohshaltgaanduruw.map((Songohshaltgaanduruw, index)=>
-                                            <p key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_tailbar}
+                                            <p style={{marginTop:"16px",fontSize:"14px"}} className={featured.featuredp} key={Songohshaltgaanduruw.id}>{Songohshaltgaanduruw.shaltgaan_duruw_tailbar}
                                             </p>
                                     )
                             :

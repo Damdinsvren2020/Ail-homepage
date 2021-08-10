@@ -29,11 +29,8 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                            <img src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/>
+                            <img style={{maxWidth:"66%"}} src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/>
                             </div>
-                            <p style={{fontFamily:"inherit"}}>
-                                Айл систем.
-                            </p>
                             <div className="ei-payment-mathod">
                                 {/* <img src="assets/img/app-landing/logo/paypal.png" alt=""/> */}
                             </div>
@@ -42,29 +39,29 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget appeight-headline ul-li-block">
                             <ul>
-                                <li><a href="#eight-banner">Нүүр хуудас</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#eight-banner">Нүүр хуудас</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#feature-eight">Үйлчилгээ</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#feature-eight">Үйлчилгээ</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#eight-service">Бидний тухай</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#eight-service">Бидний тухай</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div >
-                            <h3 style={{fontSize:"20px"}} >Холбоо барих:</h3>
-                            <h4 style={{fontSize:"16px",display:"grid"}} >
-                                <i style={{fontSize:"18px",display:"grid"}}></i>
+                            <h3 style={{fontSize:"14px",fontFamily:"ExtraRegular"}} >Холбоо барих:</h3>
+                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
+                                <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}}></i>
                                 Утасны дугаар: 7711 9660
                                 <span>(Даваа - Баасан)</span>
                             </h4>
-                            <h4 style={{fontSize:"16px",display:"grid"}} >
-                               <i style={{fontSize:"16px",display:"grid"}} ></i>
+                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
+                               <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} ></i>
                                Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот                                
                             </h4>
                             <div className="download-btn">
@@ -78,10 +75,10 @@ class Home extends React.Component{
             <div className="ei-footer-copyright">
                 <div className="container">
                     <div className="ei-footer-copyright-content">
-                        <div className="row">
+                        <div className="row" style={{justifyContent:"center"}}>
                             <div className="col-md-4">
                                 <div className="ei-copyright-text">
-                                    <p>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
+                                    <p style={{fontFamily:"ExtraRegular",fontSize:"14px"}}>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
                                 </div>
                             </div>
                         </div>

@@ -44,7 +44,7 @@ class Appdownload extends Component {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="ei-app-down-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div className="ei-app-down-text wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms" style={{marginTop:"170px"}}>
                             <div className="eight-section-title appeight-headline pera-content text-left">
                                 <span className="eg-title-tag">
                                 {
@@ -55,7 +55,7 @@ class Appdownload extends Component {
                                     )
                             :
                             null
-                            }      Application татах<i className="square-shape"><i></i><i></i><i></i><i></i></i>
+                            }      Application татах
                                 </span>
                               
                             {

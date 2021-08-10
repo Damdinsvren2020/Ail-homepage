@@ -7,15 +7,15 @@ class Header extends React.Component {
             <div className="appheader-content">
                 <div className="site-logo float-left">
                     <a href="https://www.google.mn/">
-                        <img src="assets/img/app-landing/logo/aillogoygaan.png" alt="xaxa"/>
+                        <img src="../assets/img/app-landing/logo/logo1.png" alt="xaxa"/>
                     </a>
                 </div>
                 <nav className="navigation-eight ul-li">
                     <ul>
-                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}} href="#eight-banner">Нүүр хуудас</a></li>
-                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}}  href="#feature-eight">Үйлчилгээ</a></li>
-                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}}  href="#eight-service">Бидний тухай</a></li>
-                        <li><a className="nav-link" style={{fontSize:"20px",fontWeight:"100"}}  href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                        <li><a className="nav-link" style={{fontSize:"16px"}} href="#eight-banner">НҮҮР ХУУДАС</a></li>
+                        <li><a className="nav-link" style={{fontSize:"16px"}}  href="#feature-eight">ҮЙЛЧИЛГЭЭ</a></li>
+                        <li><a className="nav-link" style={{fontSize:"16px"}}  href="#eight-service">БИДНИЙ ТУХАЙ</a></li>
+                        <li><a className="nav-link" style={{fontSize:"16px"}}  href="#ei-screenshots">СИСТЕМИЙН МЭДЭЭЛЭЛ</a></li>
                     </ul>
                 </nav>
                 <div className="h-eight-social ul-li float-right clearfix">

@@ -113,15 +113,15 @@ class Team extends Component {
                                         <div className="fun-fact-counter position-relative clearfix">
                                             <div className="eg-counter-number pera-content text-center">
                                                 <span className="odometer" data-count="20">2000</span><strong>+</strong>
-                                                <p>Application таталтын тоо</p>
+                                                <p style={{fontSize:"14px"}}>Application таталтын тоо</p>
                                             </div>
                                             <div className="eg-counter-number pera-content text-center">
                                                 <span className="odometer" data-count="2000">3000</span><strong>+</strong>
-                                                <p>Нэвтрүүлсэн сөх тоо</p>
+                                                <p style={{fontSize:"14px"}}>Нэвтрүүлсэн сөх тоо</p>
                                             </div>
                                             <div className="eg-counter-number pera-content text-center">
                                             <span className="odometer" data-count="5000">4000</span><strong>+</strong>
-                                                <p>Нийт өрхын тоо</p>
+                                                <p style={{fontSize:"14px"}}>Нийт өрхын тоо</p>
                                             </div>
                                         </div>
                                     </div>

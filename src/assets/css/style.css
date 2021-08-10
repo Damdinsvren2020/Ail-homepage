@@ -98,6 +98,15 @@ theme.
   @import url("../../assets/fonts/app_landing/static/Inter-Light.ttf");
   @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Roboto:100,500,300,400,700&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  @import url("../../assets/fonts/app_landing/inter/Inter-Black.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-Bold.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-ExtraBold.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-ExtraLight.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-Light.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-Medium.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-Regular.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-SemiBold.ttf");
+  @import url("../../assets/fonts/app_landing/inter/Inter-Thin.ttf");
   /*----------------------------------------------------*/
   /*App landing global area*/
   /*----------------------------------------------------*/
@@ -217,7 +226,7 @@ theme.
   .appeight-headline h5,
   .appeight-headline h6 {
     margin: 0;
-    font-family: "inherit";
+    font-family: "Inter-Bold";
   }
   .ei-scrollup {
     width: 55px;
@@ -4428,7 +4437,7 @@ Sticky Menu
   color: #ff8533;
   font-weight: 600;
   padding-left: 65px;
-  font-style: italic;
+  font-style: Inter-Bold;
 }
 
 .appseo-about-section .appseo-about-content .appseo-about-btn {
@@ -6287,7 +6296,7 @@ Sticky Menu
   overflow-x: hidden;
   font-size: 16px;
   line-height: 1.4;
-  font-family: "inherit";
+  font-family: "Inter-Bold";
   -moz-osx-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
@@ -6333,7 +6342,7 @@ Sticky Menu
 .saas-modern-headline h5,
 .saas-modern-headline h6 {
   margin: 0;
-  font-family: "inherit";
+  font-family: "Inter-Bold";
 }
 
 .section_title {
