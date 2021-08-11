@@ -11,7 +11,6 @@ class Screenshot extends Component {
         axios.get('http://103.29.144.253:8092/api/v1/App_screenshot')
           .then(response => {
             const zurguud = response.data.data[0];
-            console.log('App screenshot ehnii zurag',response.data.data[0])
             this.setState({ zurguud: zurguud });
           })
           .catch(error => {
@@ -23,7 +22,7 @@ class Screenshot extends Component {
             <section id="ei-screenshots" className="ei-screenshots-section position-relative">
     <div className="container">
         <div className="eight-section-title appeight-headline pera-content text-center">
-            <h2>Системийн мэдээлэл 
+            <h2 style={{fontSize:"30px"}}>Системийн мэдээлэл 
             </h2>
             </div>
 

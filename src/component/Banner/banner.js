@@ -44,14 +44,14 @@ class Banner extends Component {
                              {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <p key={banner.id}>{banner.description}
+                                            <p style={{textTransform:"uppercase"}} key={banner.id}>{banner.description}
                                             </p>
                                     )
                             :
                             null
                             }
                                  <div className="ei-banner-btn">
-                                        <a href="http://ail.mn/login?redirect=%2F"><i className="fas fa-power-off"></i>Эхлэх</a>
+                                        <a href="http://ail.mn/login?redirect=%2F">Нэвтрэх</a>
                                 </div>
                                   
                             </div>

@@ -55,7 +55,7 @@ class Appdownload extends Component {
                                     )
                             :
                             null
-                            }      Application татах
+                            }    
                                 </span>
                               
                             {
