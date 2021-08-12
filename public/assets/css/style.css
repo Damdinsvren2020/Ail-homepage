@@ -348,7 +348,6 @@ theme.
   }
 
   .eight-section-title p {
-    text-transform: uppercase;
     font-size: 15px;
     line-height: 1.647;
     text-align: center;
@@ -1226,7 +1225,6 @@ Sticky Menu
   /* font-weight: 700; */
   padding-bottom: 16px;
   font-family: "ExtraMedium";
-  text-transform: uppercase;
 }
 
 .ei-service-icon-text .ei-service-text p {
@@ -1236,7 +1234,6 @@ Sticky Menu
   line-height: 1.647;
   font-size: 14px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .ei-service-icon-text:hover .ei-service-icon:after {
@@ -1292,7 +1289,6 @@ Sticky Menu
 .eg-fun-fact-section .eg-funfact-text .eight-section-title h2 {
   padding-bottom: 16px;
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 .eg-fun-fact-section .eg-funfact-text .fun-fact-counter {
@@ -1335,7 +1331,6 @@ Sticky Menu
 .eg-fun-fact-section .eg-funfact-text .fun-fact-counter .eg-counter-number .odometer {
   font-size: 50px;
   font-family: "ExtraRegular";
-  font-weight: 600;
 }
 
 .eg-fun-fact-section .eg-funfact-text .fun-fact-counter .eg-counter-number .odometer-formatting-mark {
@@ -1347,7 +1342,6 @@ Sticky Menu
   max-width: 130px;
   margin: 0 auto;
   line-height: 1.231;
-  text-transform: uppercase;
 }
 
 .eg-fun-fact-section .eg-funfact-text .fun-fact-counter .eg-counter-number strong {
@@ -1659,14 +1653,12 @@ Sticky Menu
 
 .ei-app-down-text .eight-section-title h2 {
   padding-bottom: 15px;
-  text-transform: uppercase;
 }
 
 .ei-app-down-text .eight-section-title p {
   color: #383838;
   padding-bottom: 32px;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 /*---------------------------------------------------- */

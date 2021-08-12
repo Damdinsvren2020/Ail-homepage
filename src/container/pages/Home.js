@@ -30,10 +30,10 @@ class Home extends React.Component{
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
                             <img style={{maxWidth:"30%"}} src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/>
-                            {/* <div className="download-btn">
+                            <div className="download-btn">
                                 <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
                                 <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/logo/gp1.png" alt=""/></a>
-                            </div> */}
+                            </div>
                             </div>
                             <div className="ei-payment-mathod">
                                 {/* <img src="assets/img/app-landing/logo/paypal.png" alt=""/> */}
@@ -43,29 +43,29 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget appeight-headline ul-li-block">
                             <ul>
-                                <li style={{fontFamily:"ExtraRegular",textTransform:"uppercase"}}><a href="#eight-banner">Нүүр хуудас</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#eight-banner">Нүүр хуудас</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"ExtraRegular",textTransform:"uppercase"}}><a href="#feature-eight">Үйлчилгээ</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#feature-eight">Үйлчилгээ</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"ExtraRegular",textTransform:"uppercase"}}><a href="#eight-service">Бидний тухай</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#eight-service">Бидний тухай</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"ExtraRegular",textTransform:"uppercase"}}><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div >
-                            <h3 style={{fontSize:"14px",fontFamily:"ExtraRegular",textTransform:"uppercase"}} >Холбоо барих:</h3>
-                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular",textTransform:"uppercase"}} >
-                                <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular",textTransform:"uppercase"}}></i>
+                            <h3 style={{fontSize:"14px",fontFamily:"ExtraRegular"}} >Холбоо барих:</h3>
+                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
+                                <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}}></i>
                                 Утасны дугаар: 7711 9660
                                 <span>(Даваа - Баасан)</span>
                             </h4>
-                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular",textTransform:"uppercase"}} >
-                               <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular",textTransform:"uppercase"}} ></i>
+                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
+                               <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} ></i>
                                Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот                                
                             </h4>
                         </div>
@@ -78,7 +78,7 @@ class Home extends React.Component{
                         <div className="row" style={{justifyContent:"center"}}>
                             <div className="col-md-4">
                                 <div className="ei-copyright-text">
-                                    <p style={{fontFamily:"ExtraRegular",fontSize:"14px",textTransform:"uppercase"}}>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
+                                    <p style={{fontFamily:"ExtraRegular",fontSize:"14px"}}>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
                                 </div>
                             </div>
                         </div>

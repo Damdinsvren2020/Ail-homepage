@@ -44,7 +44,7 @@ class Banner extends Component {
                              {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <p style={{textTransform:"uppercase"}} key={banner.id}>{banner.description}
+                                            <p key={banner.id}>{banner.description}
                                             </p>
                                     )
                             :

@@ -6,7 +6,7 @@ class Header extends React.Component {
             <header id="header-eight" className="main-header-eight">
             <div className="appheader-content">
                 <div className="site-logo float-left">
-                    <a href="https://www.google.mn/">
+                    <a href="http://ail.mn/">
                         <img src="./aillogoshine.png" alt="xaxa"/>
                     </a>
                 </div>
