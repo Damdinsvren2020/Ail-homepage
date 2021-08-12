@@ -29,13 +29,18 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                            <img style={{maxWidth:"30%"}} src="assets/img/app-landing/logo/solution1.png" alt="footerlogo"/>
-                            <div className="download-btn">
-                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
-                                <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/logo/gp1.png" alt=""/></a>
-                            </div>
+                            <img style={{maxWidth:"35%"}} src="assets/img/app-landing/logo/solution1.png" alt="footerlogo"/>
+                            <div style={{marginTop:"16px"}}>
+                            <span style={{fontSize:"14px",fontFamily:"ExtraRegular"}} >Холбоо барих:</span>
+                            <span style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
+                                Утасны дугаар: 7711 9660
+                            </span>
+                        </div>
+                        <span style={{fontSize:"14px"}}>Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот</span>
                             </div>
                             <div className="ei-payment-mathod">
+                            {/* <span>
+                            </span> */}
                                 {/* <img src="assets/img/app-landing/logo/paypal.png" alt=""/> */}
                             </div>
                         </div>
@@ -57,17 +62,11 @@ class Home extends React.Component{
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div >
-                            <h3 style={{fontSize:"14px",fontFamily:"ExtraRegular"}} >Холбоо барих:</h3>
-                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
-                                <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}}></i>
-                                Утасны дугаар: 7711 9660
-                                <span>(Даваа - Баасан)</span>
-                            </h4>
-                            <h4 style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
-                               <i style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} ></i>
-                               Монгол улс, Улаанбаатар 14200, Сүхбаатар дүүрэг, 8-р хороо, Сүхбаатарын талбай, Сентрал тауэр, 712 тоот                                
-                            </h4>
+                         <div className="download-btn">
+                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
+                            </div>
+                        <div className="download-btn">
+                            <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/logo/gp1.png" style={{marginTop:"12px"}} alt=""/></a>
                         </div>
                     </div>
                 </div>
