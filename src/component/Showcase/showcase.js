@@ -136,57 +136,15 @@ class Showcase extends Component {
                     </div>
                 </div>
                 <div className="eight-service-text position-relative appeight-headline wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div className="ei-service-slide-mbl"data-background="assets/img/app-landing/mockup/slider-01.png">
-                       
-                        <div class="slide-inner">
-                            <div class="ei-service-slide">
-                                <div class="slide-item">
-                                    <div class="image">
-                                    {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }                                            </div>
-                                </div>
-                                <div class="slide-item">
-                                    <div class="image">
-                                    {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }                                            </div>
-                                </div>
-                                <div class="slide-item">
-                                    <div class="image">
-                                    {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }                                            </div>
-                                </div>
-                                {/* <div class="slide-item">
-                                    <div class="image">
-                                    {
-                            this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
-                                    this.state.show_case_banner_text.map((show_case_banner_text, index)=>
-                                        <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt=""/>
-                                    )
-                                :
-                               null
-                                }                                            </div>
-                                </div> */}
-
-                            </div>
-                        </div>
+                    <div class="ei-service-slide-mbl">
+                         {
+                    this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?
+                            this.state.show_case_banner_text.map((show_case_banner_text, index)=>
+                                <img key={show_case_banner_text.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${show_case_banner_text.image}`} alt="bannerzurag oruulah"/>
+                            )
+                                  :
+                                 null
+                                  }                 
                     </div>
                     {
                             this.state.show_case_banner_text && this.state.show_case_banner_text.length > 0 ?

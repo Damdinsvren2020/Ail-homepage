@@ -29,7 +29,7 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                            <img style={{maxWidth:"30%"}} src="assets/img/app-landing/logo/Solution1.png" alt="footerlogo"/>
+                            <img style={{maxWidth:"30%"}} src="assets/img/app-landing/logo/solution1.png" alt="footerlogo"/>
                             <div className="download-btn">
                                 <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
                                 <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/logo/gp1.png" alt=""/></a>
