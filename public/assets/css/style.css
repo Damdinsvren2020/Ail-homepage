@@ -184,6 +184,7 @@ theme.
   .ul-li-block ul li {
     list-style: none;
     display: block;
+    margin: 0px 100px 0px;
   }
   div#preloader {
     position: fixed;
@@ -1233,7 +1234,7 @@ Sticky Menu
   font-family: "ExtraMedium";
   line-height: 1.647;
   font-size: 14px;
-  text-align: center;
+  text-align: justify;
 }
 
 .ei-service-icon-text:hover .ei-service-icon:after {
@@ -1644,7 +1645,7 @@ Sticky Menu
 
 .ei-app-down-text {
   max-width: 450px;
-  padding-top: 90px;
+  padding-top: 0px;
 }
 
 .ei-app-down-text .eight-section-title .eg-title-tag {
@@ -2514,13 +2515,14 @@ Sticky Menu
 }
 
 .ei-footer-widget ul li a:before {
-  left: -15px;
+  /* left: -15px;
   top: 3px;
   content: "";
   font-size: 12px;
   font-weight: 900;
   position: absolute;
-  font-family: "ExtraRegular";
+  font-family: "ExtraRegular"; */
+  display: none;
 }
 
 .ei-footer-widget ul li a:after {

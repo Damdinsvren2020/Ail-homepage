@@ -123,6 +123,10 @@ class Team extends Component {
                                             <span className="odometer" data-count="5000">4108</span><strong>+</strong>
                                                 <p style={{fontSize:"14px"}}>Нийт өрхын тоо</p>
                                             </div>
+                                            <div className="eg-counter-number pera-content text-center">
+                                            <span className="odometer" data-count="5000">10000</span><strong>+</strong>
+                                                <p style={{fontSize:"14px"}}>Нийт хэрэглэгч</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -29,9 +29,8 @@ class Home extends React.Component{
                     <div className="col-lg-4">
                         <div className="ei-footer-widget pera-content appeight-headline">
                             <div className="ei-footer-logo">
-                            <img style={{maxWidth:"35%"}} src="assets/img/app-landing/logo/solution1.png" alt="footerlogo"/>
+                            <img style={{maxWidth:"33%"}} src="assets/img/app-landing/logo/solution1.png" alt="footerlogo"/>
                             <div style={{marginTop:"16px"}}>
-                            <span style={{fontSize:"14px",fontFamily:"ExtraRegular"}} >Холбоо барих:</span>
                             <span style={{fontSize:"14px",display:"grid",fontFamily:"ExtraRegular"}} >
                                 Утасны дугаар: 7711 9660
                             </span>
@@ -46,7 +45,7 @@ class Home extends React.Component{
                         </div>
                     </div>
                     <div className="col-lg-4">
-                        <div className="ei-footer-widget appeight-headline ul-li-block">
+                        <div className="ei-footer-widget appeight-headline ul-li-block" style={{margin:"0px 18.5 1px 126.5"}}>
                             <ul>
                                 <li style={{fontFamily:"ExtraRegular"}}><a href="#eight-banner">Нүүр хуудас</a></li>
                             </ul>
@@ -63,10 +62,10 @@ class Home extends React.Component{
                     </div>
                     <div className="col-lg-4">
                          <div className="download-btn">
-                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/logo/app1.png" alt=""/></a>
+                                <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/shape/btn2.png" alt=""/></a>
                             </div>
                         <div className="download-btn">
-                            <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/logo/gp1.png" style={{marginTop:"12px"}} alt=""/></a>
+                            <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/shape/btn1.png" style={{marginTop:"12px"}} alt=""/></a>
                         </div>
                     </div>
                 </div>
