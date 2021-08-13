@@ -755,7 +755,7 @@ Sticky Menu
 
 .eight-banner-section .eight-banner-content h1 {
   color: #fff;
-  font-size: 65px;
+  font-size: 54px;
   /* font-weight: 700; */
   line-height: 1.083;
   padding-bottom: 20px;
@@ -1618,6 +1618,8 @@ Sticky Menu
 .ei-appdownload-section .app-down-btn a {
   margin-right: 10px;
   display: inline-block;
+  margin-top: 34px;
+
 }
 
 .ei-appdownload-section .ei-appdownloaad-shape {
@@ -2833,7 +2835,7 @@ Sticky Menu
 /*----------------------------------------------------*/
 @media screen and (max-width: 1440px) {
   .main-header-eight .appheader-content {
-    padding: 0px 40px;
+    padding: 0px 60px;
   }
   .ei-service-slide-mbl {
     right: 0;
@@ -2890,12 +2892,12 @@ Sticky Menu
 }
 @media screen and (max-width: 1280px) {
   .main-header-eight .appheader-content .site-logo {
-    margin-right: 155px;
+    margin-right: 180px;
   }
 }
 @media screen and (max-width: 1199px) {
   .main-header-eight .appheader-content .site-logo {
-    margin-right: 115px;
+    margin-right: 125px;
   }
 
   .ei-screenshots-section .ei-screen-mobile-image {
@@ -2965,7 +2967,7 @@ Sticky Menu
   }
 
   .main-header-eight .appheader-content .sign-up-btn-eight {
-    margin-right: 50px;
+    margin-right: 100px;
   }
 
   .eight-banner-section .eight-banner-content .ei-banner-mbl-mockup {

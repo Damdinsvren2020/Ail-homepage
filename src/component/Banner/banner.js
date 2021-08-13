@@ -50,9 +50,10 @@ class Banner extends Component {
                             :
                             null
                             }
-                                 <div className="ei-banner-btn">
-                                        <a href="http://ail.mn/login?redirect=%2F">Нэвтрэх</a>
-                                </div>
+                            <div className="app-down-btn" style={{marginTop:"30px"}}>
+                                <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/shape/btn1.png" alt="xaxa"/></a>
+                                <a href="https://apps.apple.com/mn/app/ail/id1547983699" style={{margin:"13px"}}><img src="assets/img/app-landing/shape/btn2.png" alt="xaxa"/></a>
+                            </div>
                                   
                             </div>
                             <div className="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">

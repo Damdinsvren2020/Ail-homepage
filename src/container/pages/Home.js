@@ -56,7 +56,7 @@ class Home extends React.Component{
                                 <li style={{fontFamily:"ExtraRegular"}}><a href="#eight-service">Бидний тухай</a></li>
                             </ul>
                             <ul>
-                                <li style={{fontFamily:"ExtraRegular"}}><a href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                                <li style={{fontFamily:"ExtraRegular"}}><a href="#ei-screenshots">Аппликешн тухай</a></li>
                             </ul>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ class Home extends React.Component{
                         <div className="row" style={{justifyContent:"center"}}>
                             <div className="col-md-4">
                                 <div className="ei-copyright-text">
-                                    <p style={{fontFamily:"ExtraRegular",fontSize:"14px"}}>© 2020 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
+                                    <p style={{fontFamily:"ExtraRegular",fontSize:"14px"}}>© 2021 <a href="https://www.skypro.mn/skypro-solution">Sky professional solution</a></p>
                                 </div>
                             </div>
                         </div>

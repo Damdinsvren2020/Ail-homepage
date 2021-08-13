@@ -15,7 +15,7 @@ class Header extends React.Component {
                         <li><a className="nav-link" style={{fontSize:"16px",textTransform:"uppercase"}} href="#eight-banner">НҮҮР ХУУДАС</a></li>
                         <li><a className="nav-link" style={{fontSize:"16px",textTransform:"uppercase"}}  href="#feature-eight">ҮЙЛЧИЛГЭЭ</a></li>
                         <li><a className="nav-link" style={{fontSize:"16px",textTransform:"uppercase"}}  href="#eight-service">БИДНИЙ ТУХАЙ</a></li>
-                        <li><a className="nav-link" style={{fontSize:"16px",textTransform:"uppercase"}}  href="#ei-screenshots">СИСТЕМИЙН МЭДЭЭЛЭЛ</a></li>
+                        <li><a className="nav-link" style={{fontSize:"16px",textTransform:"uppercase"}}  href="#ei-screenshots">АППЛИКЕШН ТУХАЙ</a></li>
                     </ul>
                 </nav>
                 <div className="h-eight-social ul-li float-right clearfix">
@@ -46,7 +46,7 @@ class Header extends React.Component {
                                 <li><a className="nav-link" style={{fontSize:"13px"}}  href="#eight-banner">Нүүр хуудас</a></li>
                                 <li><a className="nav-link" style={{fontSize:"13px"}}  href="#feature-eight">Үйлчилгээ</a></li>
                                 <li><a className="nav-link" style={{fontSize:"13px"}}  href="#eight-service">Бидний тухай</a></li>
-                                <li><a className="nav-link" style={{fontSize:"13px"}}  href="#ei-screenshots">Системийн мэдээлэл</a></li>
+                                <li><a className="nav-link" style={{fontSize:"13px"}}  href="#ei-screenshots">Аппликешн тухай</a></li>
                             </ul>
                         </nav>
                     </div>
