@@ -30,7 +30,7 @@ class Banner extends Component {
                             {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                            <h1 key={banner.id}>{banner.title}
+                                            <h1  key={banner.id}>{banner.title}
                                                 <span className="cd-words-wrapper">
                                                     <b className="is-visible"></b>
                                                     <b>showcase</b>

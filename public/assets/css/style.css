@@ -755,7 +755,7 @@ Sticky Menu
 
 .eight-banner-section .eight-banner-content h1 {
   color: #fff;
-  font-size: 54px;
+  font-size: 50px;
   /* font-weight: 700; */
   line-height: 1.083;
   padding-bottom: 20px;
@@ -768,6 +768,7 @@ Sticky Menu
 .eight-banner-section .eight-banner-content p {
   font-size: 20px;
   color: #fff;
+  margin-top: 16px;
 }
 
 .eight-banner-section .eight-banner-content .ei-banner-review ul {

@@ -7,7 +7,7 @@ class Header extends React.Component {
             <div className="appheader-content">
                 <div className="site-logo float-left">
                     <a href="http://ail.mn/">
-                        <img src="./aillogoshine.png" alt="xaxa"/>
+                        {/* <img src="./ailtaniltsuulgalogo.png" alt="xaxa"/> */}
                     </a>
                 </div>
                 <nav className="navigation-eight ul-li">
@@ -24,7 +24,7 @@ class Header extends React.Component {
                     </ul>
                 </div>
                 <div className="sign-up-btn-eight text-center float-right clearfix">
-                    <a href="http://ail.mn/login?redirect=%2F">Нэвтрэх</a>
+                    <a href="http://app.ail.mn/login?redirect=%2F">Нэвтрэх</a>
                 </div>
             </div>
             {/* <!-- /desktop-menu --> */}
