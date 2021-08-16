@@ -278,7 +278,9 @@ theme.
     position: fixed;
     border-radius: 100%;
     line-height: 55px;
-    background-image: linear-gradient(-45deg, #e511e6 32%, #6b2c94 100%);
+    background: linear-gradient(
+      90deg
+      , rgba(28,63,170,1) 0%, rgb(102, 140, 236) 58%);
   }
   .ei-scrollup i {
     color: #fff;
@@ -523,7 +525,7 @@ theme.
     line-height: 40px;
     border-radius: 20px;
     justify-content: center;
-    background-color: #29f5eb;
+    background-color: #09ecf3;
     transition: 0.3s all ease-in-out;
   }
 
@@ -635,7 +637,7 @@ theme.
 Sticky Menu
 -------------------------------- */
 .eisticky-menu-bg-overlay {
-  background-color: #9c00e2;
+  background-color: #1c3faa;
   animation-duration: 0.7s;
   animation-fill-mode: both;
   animation-name: fadeInDown;
@@ -823,7 +825,7 @@ Sticky Menu
   height: 100%;
   bottom: -1px;
   background: #6d8cf8;
-  background: linear-gradient(to right, #c12dd1, #6d8cf8);
+  background: linear-gradient(90deg, rgba(28,63,170,1) 0%, rgba(43,81,180,1) 58%);
 }
 
 .bgTop {
@@ -1693,7 +1695,9 @@ Sticky Menu
   visibility: hidden;
   border: double 2px transparent;
   border-radius: 100%;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #4171e8, #ff03d0, #4171e8);
+  background-image:linear-gradient(90deg, rgba(28,63,170,1) 0%, rgba(43,81,180,1) 58%);
+  ;
+  /* background-image: linear-gradient(white, white), radial-gradient(circle at top left, #4171e8, #ff03d0, #4171e8); */
   background-origin: border-box;
   transition: 0.3s all ease-in-out;
   background-clip: content-box, border-box;
@@ -1762,7 +1766,9 @@ Sticky Menu
   z-index: -1;
   transition: 0.3s all ease-in-out;
   border-radius: 100%;
-  background-image: -ms-linear-gradient(173deg, #ff03d0 0%, #4599fb 53%, #70fcff 99%);
+  background-image: -ms-linear-gradient(90deg, rgba(28,63,170,1) 0%, rgba(43,81,180,1) 58%);
+  ;
+  /* background-image: -ms-linear-gradient(173deg, #ff03d0 0%, #4599fb 53%, #70fcff 99%); */
 }
 
 .ei-team-section .ei-team-pic-text .ei-team-social a:nth-child(1) {
@@ -2404,7 +2410,8 @@ Sticky Menu
 .ei-newslatter-section .ei-newslatter-box {
   overflow: hidden;
   padding: 80px 0px 85px;
-  background: linear-gradient(-90deg, #ff00a2 0%, #750cf8 50%, #4ce7f3 100%);
+  background: linear-gradient(90deg, rgba(28,63,170,1) 0%, rgba(43,81,180,1) 100%);
+  /* background: linear-gradient(-90deg, #ff00a2 0%, #750cf8 50%, #4ce7f3 100%); */
 }
 
 .ei-newslatter-section .ei-newslatter-box .ei-news-vector1 {
