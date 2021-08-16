@@ -22,7 +22,7 @@ class Screenshot extends Component {
             <section id="ei-screenshots" className="ei-screenshots-section position-relative">
     <div className="container">
         <div className="eight-section-title appeight-headline pera-content text-center">
-            <h2 style={{fontSize:"30px"}}>Системийн мэдээлэл 
+            <h2 style={{fontSize:"30px"}}>Аппликешн тухай 
             </h2>
             </div>
 
