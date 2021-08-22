@@ -158,7 +158,8 @@ class Showcase extends Component {
                 </div>
             </div>
             <div className="s-shape-bg1" data-parallax='{"x" : -70}'>
-                <img src="assets/img/app-landing/shape/s-shape3.png" alt="xaxa"/></div>
+                <img src="assets/img/app-landing/shape/s-shape3.png" alt="xaxa"/>
+            </div>
             <div className="s-shape-bg2 text-center">
                 <img src="assets/img/app-landing/shape/s-shape4.png" alt="xaxa"/>
             </div>
