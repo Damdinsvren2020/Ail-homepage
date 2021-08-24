@@ -2843,7 +2843,7 @@ Sticky Menu
 /*----------------------------------------------------*/
 @media screen and (max-width: 1440px) {
   .main-header-eight .appheader-content {
-    padding: 0px 60px;
+    padding: 0px 38px;
   }
   .ei-service-slide-mbl {
     right: 0;
@@ -2897,10 +2897,19 @@ Sticky Menu
     text-transform: uppercase;
     max-width: 285px;
   }
+  .bannerimage {
+    width: 346px;
+  }
 }
 @media screen and (max-width: 1280px) {
   .main-header-eight .appheader-content .site-logo {
     margin-right: 180px;
+  }
+  .main-header-eight .appheader-content {
+    padding: 0px 26px;
+  }
+  .bannerimage {
+    width: 380px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -2911,10 +2920,16 @@ Sticky Menu
   .ei-screenshots-section .ei-screen-mobile-image {
     width: 322px;
   }
+  .main-header-eight .appheader-content {
+    padding: 0px 15px;
+  }
+  .bannerimage {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 1024px) { 
   .main-header-eight .appheader-content .site-logo  {
-    margin-right: 40px
+    margin-right: 60px
   }
   .main-header-eight .appheader-content .navigation-eight li {
     margin-right: 10px;
@@ -2956,6 +2971,9 @@ Sticky Menu
     margin: 0 auto;
     max-width: 500px;
   }
+  .bannerimage {
+    width: 350px;
+  } 
 }
 @media screen and (max-width: 991px) {
   .main-header-eight .appheader-content .navigation-eight {
@@ -3100,6 +3118,9 @@ Sticky Menu
   .ei-footer-widget {
     margin-bottom: 30px;
   }
+  .bannerimage {
+    width: 450px;
+  } 
 }
 @media screen and (max-width: 767px) {
   .ei-screenshots-section .ei-screen-mobile-image {
@@ -17327,7 +17348,7 @@ div#pm-preloader {
 }
 @media screen and (max-width: 1024px) {
   .pm-main-header .pm-main-navigation li {
-    margin: 0px 15px;
+    margin: 0px 30px;
   }
 
   .pm-banner-section-1 .pm-banner-content .pm-banner-text h1 {

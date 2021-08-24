@@ -60,7 +60,7 @@ class Banner extends Component {
                             {
                             this.state.banners && this.state.banners.length > 0 ?
                                     this.state.banners.map((banner, index)=>
-                                        <img key={banner.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${banner.image}`} alt="bannerzurag oruulah"/>
+                                        <img className="bannerimage" key={banner.id} src={`${process.env.REACT_APP_API_URL}/storage/app/media${banner.image}`} alt="bannerzurag oruulah"/>
                                     )
                             :
                             null
