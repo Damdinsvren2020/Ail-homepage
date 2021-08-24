@@ -2927,6 +2927,57 @@ Sticky Menu
     width: 350px;
   }
 }
+@media screen and (max-width: 1036px) { 
+  .main-header-eight .appheader-content .site-logo  {
+    margin-right: 60px
+  }
+  .main-header-eight .appheader-content .navigation-eight li {
+    margin-right: 10px;
+  }
+  .main-header-eight .appheader-content .h-eight-social {
+    margin-left: 0;
+  }
+  .main-header-eight .appheader-content {
+    padding: 0px 3px;
+  }
+  .eg-fun-fact-section .eg-fun-fact-mockup {
+    left: -320px;
+  }
+  .ei-team-section .ei-team-content .owl-item.active.center .ei-team-img:after,
+  .ei-team-section .ei-team-content .owl-item .ei-team-img:after {
+    left: 70px;
+  }
+  .ei-team-section .ei-team-content .owl-nav .owl-prev,
+  .ei-team-section .ei-team-content .owl-nav .owl-next {
+    position: static;
+    text-align: center;
+    margin: 0px 8px;
+    transform: translateY(0);
+  }
+  .ei-team-section .ei-team-content .owl-nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .ei-newslatter-section .ei-newslatter-mockup {
+    display: none;
+  }
+  .ei-footer-widget .download-btn a {
+    margin-right: 0px;
+  }
+  .eight-service-section .eight-service-slide .ei-service-slide-btn {
+    margin-left: 15px;
+  }
+  .eight-service-section .eight-service-text h2 {
+    max-width: 245px;
+  }
+  .ei-testimonial-section .ei-testimonial-img-text {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .bannerimage {
+    width: 350px;
+  } 
+}
 @media screen and (max-width: 1024px) { 
   .main-header-eight .appheader-content .site-logo  {
     margin-right: 60px
@@ -2936,6 +2987,9 @@ Sticky Menu
   }
   .main-header-eight .appheader-content .h-eight-social {
     margin-left: 0;
+  }
+  .main-header-eight .appheader-content {
+    padding: 0px 3px;
   }
   .eg-fun-fact-section .eg-fun-fact-mockup {
     left: -320px;
