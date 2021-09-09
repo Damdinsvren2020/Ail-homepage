@@ -65,7 +65,7 @@ class Home extends React.Component{
                                 <a href="https://apps.apple.com/mn/app/ail/id1547983699"><img src="assets/img/app-landing/shape/btn2.png" alt=""/></a>
                             </div>
                         <div className="download-btn">
-                            <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/shape/btn1.png" style={{marginTop:"12px"}} alt=""/></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.soh.ail"><img src="assets/img/app-landing/shape/btn1.png" style={{marginTop:"12px"}} alt=""/></a>
                         </div>
                     </div>
                 </div>

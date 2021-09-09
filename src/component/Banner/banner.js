@@ -51,7 +51,7 @@ class Banner extends Component {
                             null
                             }
                             <div className="app-down-btn" style={{marginTop:"30px"}}>
-                                <a href="https://play.google.com/store/apps"><img src="assets/img/app-landing/shape/btn1.png" alt="xaxa"/></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.soh.ail"><img src="assets/img/app-landing/shape/btn1.png" alt="xaxa"/></a>
                                 <a href="https://apps.apple.com/mn/app/ail/id1547983699" style={{margin:"13px"}}><img src="assets/img/app-landing/shape/btn2.png" alt="xaxa"/></a>
                             </div>
                                   
