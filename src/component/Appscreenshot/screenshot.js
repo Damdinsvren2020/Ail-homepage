@@ -8,7 +8,7 @@ class Screenshot extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://103.29.144.253:8092/api/v1/App_screenshot')
+        axios.get('https://api2.ail.mn/api/v1/App_screenshot')
           .then(response => {
             const zurguud = response.data.data[0];
             this.setState({ zurguud: zurguud });

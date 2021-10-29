@@ -10,7 +10,7 @@ class Appdownload extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://103.29.144.253:8092/api/v1/App_download')
+        axios.get('https://api2.ail.mn/api/v1/App_download')
           .then(response => {
             const appdownload_title = response.data.data;
             this.setState({ appdownload_title: appdownload_title });
@@ -18,7 +18,7 @@ class Appdownload extends Component {
           .catch(error => {
             console.log(error)
         })
-        axios.get('http://103.29.144.253:8092/api/v1/App_download')
+        axios.get('https://api2.ail.mn/api/v1/App_download')
         .then(response => {
           const appimage = response.data.data[0];
           this.setState({ appimage: appimage });

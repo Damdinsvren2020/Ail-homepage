@@ -10,7 +10,7 @@ class Banner extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://103.29.144.253:8092/api/v1/Home_banner')
+        axios.get('https://api2.ail.mn/api/v1/Home_banner')
           .then(response => {
             const banners = response.data.data;
             this.setState({ banners: banners });

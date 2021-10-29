@@ -10,7 +10,7 @@ class Showcase extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://103.29.144.253:8092/api/v1/Show_case_neg')
+        axios.get('https://api2.ail.mn/api/v1/Show_case_neg')
           .then(response => {
             const showcaseneg = response.data.data;
             this.setState({ showcaseneg: showcaseneg });
@@ -18,7 +18,7 @@ class Showcase extends Component {
           .catch(error => {
             console.log(error)
         })
-        axios.get('http://103.29.144.253:8092/api/v1/Show_case_hoyor')
+        axios.get('https://api2.ail.mn/api/v1/Show_case_hoyor')
         .then(response => {
           const showcase_hoyor_garchig = response.data.data;
           this.setState({ showcase_hoyor_garchig: showcase_hoyor_garchig });
@@ -26,7 +26,7 @@ class Showcase extends Component {
         .catch(error => {
           console.log(error)
       })
-      axios.get('http://103.29.144.253:8092/api/v1/Case_guraw')
+      axios.get('https://api2.ail.mn/api/v1/Case_guraw')
       .then(response => {
         const case_garchig_guraw = response.data.data;
         this.setState({ case_garchig_guraw: case_garchig_guraw });
@@ -34,7 +34,7 @@ class Showcase extends Component {
       .catch(error => {
         console.log(error)
     })
-    axios.get('http://103.29.144.253:8092/api/v1/show_case_banner')
+    axios.get('https://api2.ail.mn/api/v1/show_case_banner')
       .then(response => {
         const show_case_banner_text = response.data.data;
         this.setState({ show_case_banner_text: show_case_banner_text });
