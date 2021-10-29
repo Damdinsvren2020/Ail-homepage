@@ -11,7 +11,7 @@ class Team extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+        axios.get('https://api2.ail.mn/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const teams_garchig = response.data.data;
             this.setState({ teams_garchig: teams_garchig });
@@ -19,7 +19,7 @@ class Team extends Component {
           .catch(error => {
             console.log(error)
         })
-        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+        axios.get('https://api2.ail.mn/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const teams_zurag = response.data.data;
             this.setState({ teams_zurag: teams_zurag });
@@ -27,7 +27,7 @@ class Team extends Component {
           .catch(error => {
             console.log(error)
         })
-        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+        axios.get('https://api2.ail.mn/api/v1/Toon_vzvvlelt_zurag')
           .then(response => {
             const zurag_neg = response.data.data;
             this.setState({ zurag_neg: zurag_neg });
@@ -35,7 +35,7 @@ class Team extends Component {
           .catch(error => {
             console.log(error)
         })
-        axios.get('http://103.29.144.253:8092/api/v1/Toon_vzvvlelt_zurag')
+        axios.get('https://api2.ail.mn/api/v1/Toon_vzvvlelt_zurag')
         .then(response => {
           const teams_zurattailbar = response.data.data[0];
           this.setState({ teams_zurattailbar: teams_zurattailbar });
