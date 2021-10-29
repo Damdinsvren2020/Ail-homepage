@@ -33,7 +33,6 @@ class Screenshot extends Component {
                         {
                             this.state.zurguud && this.state.zurguud.image_neg &&
                             {backgroundImage:`url(${process.env.REACT_APP_API_URL}/storage/app/media${this.state.zurguud.image_neg})`}                       
-
                         } 
                         >                       
                      </div>
