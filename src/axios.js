@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost/ail-admin/api/v1/'
+    baseURL: 'https://api2.ail.mn/'
 });
 
 export default instance;

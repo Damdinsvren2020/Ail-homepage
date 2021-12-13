@@ -1,7 +1,6 @@
 import React ,{Component} from 'react';
 import  './banner.css';
 import axios from 'axios';
-
 class Banner extends Component {
     constructor(props) {
         super(props)

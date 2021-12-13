@@ -1,12 +1,12 @@
 import React ,{Component} from 'react';
 import featured from './featured.css'
+import Detail_neg from './details/detail_neg';
 import axios from 'axios';
 
 class Featured extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            Songohshaltgaan: [],
             Songohshaltgaanneg:[],
             Songohshaltgaanhoyor:[],
             Songohshaltgaanguraw:[],
@@ -14,14 +14,6 @@ class Featured extends Component {
         }
     }
     componentDidMount() {
-        axios.get(`${process.env.REACT_APP_API_URL}api/v1/Bidniig_songoh_shaltaan`)          
-        .then(response => {
-            const Songohshaltgaan = response.data.data;
-            this.setState({ Songohshaltgaan: Songohshaltgaan });
-          })
-          .catch(error => {
-            console.log(error)
-        })
         axios.get(`${process.env.REACT_APP_API_URL}api/v1/shaltgaan_aguulga_neg`) 
         .then(response => {
             const Songohshaltgaanneg = response.data.data;
@@ -67,29 +59,7 @@ class Featured extends Component {
         return (
             <section id="feature-eight" className="feature-eight-section position-relative">
         <div className="container">
-            <div className="eight-section-title appeight-headline pera-content text-center">
-                <span className="eg-title-tag">
-                    {/* Fetaured services <i className="square-shape"><i></i><i></i> <i></i> <i></i> </i> */}
-                </span>
-                        {/* {
-                            this.state.Songohshaltgaan && this.state.Songohshaltgaan.length > 0 ?
-                                    this.state.Songohshaltgaan.map((Songohshaltgaan, index)=>
-                                            <h2 key={Songohshaltgaan.id}>{Songohshaltgaan.title}
-                                            </h2>
-                                    )
-                            :
-                            null
-                        } */}
-                           {
-                            this.state.Songohshaltgaan && this.state.Songohshaltgaan.length > 0 ?
-                                    this.state.Songohshaltgaan.map((Songohshaltgaan, index)=>
-                                            <p className={featured.featuredh2}   key={Songohshaltgaan.id}>{Songohshaltgaan.description}
-                                            </p>
-                                    )
-                            :
-                            null
-                        }
-                </div>
+               <Detail_neg/>
                 <div className="eight-feature-content">
                     <div className="row justify-content-md-center">
                         <div className="col-lg-3 col-md-6  wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
